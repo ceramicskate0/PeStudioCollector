@@ -20,10 +20,8 @@ namespace MassPeStudioFileScan
         private static string Pass;
         private static string Domain;
         private static string Username;
-        public static string FileTypesToMove = "*.com *.vbs *.cs *.exe *.wav *.bin *.bny *.php *.ws *.wsf *.run *.rgs *.msi *.job *.hta *.jar *.wsc *.ps2 *.psc1 *.psc2 *.pdf *.inf *.dll *.psm *.cmd *.bat *.ps1 *.ps *.js *.jse *.vbe *.vb *.zip *.swf *.java *.cv1 *.doc *.docx *.dot *.docm *.xls *.xlsx *.xlt *.xla *.xll *xlsm *.ppt *.pptx *.tmp *.htm *.html *.xhtml *.msg *.dat *.sys";
-        
-        
-        
+        public static string  CleanUpXMLs = "";
+        public static string FileTypesToMove = "*.com *.vbs *.cs *.exe *.wav *.bin *.bny *.php *.ws *.wsf *.run *.rgs *.msi *.job *.hta *.jar *.wsc *.ps2 *.psc1 *.psc2 *.pdf *.inf *.dll *.psm *.cmd *.bat *.ps1 *.ps *.js *.jse *.vbe *.vb *.zip *.swf *.java *.cv1 *.doc *.docx *.dot *.docm *.xls *.xlsx *.xlt *.xla *.xll *xlsm *.ppt *.pptx *.tmp *.htm *.html *.xhtml *.msg *.dat *.sys";                 
         
         static void Main(string[] args)
         {
@@ -43,50 +41,64 @@ namespace MassPeStudioFileScan
             Console.ForegroundColor = ConsoleColor.White;
         }
 
-        public static void ParseExeCmdArgs(string[] argz)
+        static void ParseExeCmdArgs(string[] argz)
         {
-            for (int x = 0; x < argz.Length - 1; ++x)
+            try
             {
-                switch (argz[x].ToLower())
+                for (int x = 0; x < argz.Length - 1; ++x)
                 {
-                    case "-t":
-                        FileCopyLoc = argz[x + 1];
-                        break;
-                    case "-u":
-                        Username = argz[x + 1];
-                        break;
-                    case "-p":
-                        Pass = argz[x + 1];
-                        MainMenuOption2();//Scan Dir or File local
-                        break;
-                    case "-d":
-                        Domain = argz[x + 1];
-                        break;
-                    case "-lt":
-                        if (CMDerrorCheck(1))
-                        {
-                            MainMenuOption1(argz[x + 1]);//Scan Dir or File local
-                        }
-                        else
-                        {
-                            Error("-ERROR-  CMD Args suck and might be out of order error. Type -h for help.");
-                        }
-                        break;
-                    case "-rt":
-                        if (CMDerrorCheck(1) && CMDerrorCheck(2))
-                        {
-                            MainMenuOption2(argz[x + 1]);//scan remote
-                        }
-                        else
-                        {
-                            Error("-ERROR-  CMD Args suck and might be out of order error. Type -h for help.");
-                        }
-                        break;
+                    switch (argz[x].ToLower())
+                    {
+                        case "-t":
+                            FileCopyLoc = argz[x + 1];
+                            break;
+                        case "-u":
+                            Username = argz[x + 1];
+                            break;
+                       case "-h":
+                            DisaplyHelp();
+                            break;
+                        case "-p":
+                            Pass = argz[x + 1];
+                            MainMenuOption2();//Scan Dir or File local
+                            break;
+                        case "-c":
+                            CleanUpXMLs = "-c";
+                            break;
+                        case "-d":
+                            Domain = argz[x + 1];
+                            break;
+                        case "-lt":
+                            if (CMDerrorCheck(1))
+                            {
+                                MainMenuOption1(argz[x + 1]);//Scan Dir or File local
+                            }
+                            else
+                            {
+                                Error("-ERROR-  CMD Args suck and might be out of order error. Type -h for help.");
+                            }
+                            break;
+                        case "-rt":
+                            if (CMDerrorCheck(1) && CMDerrorCheck(2))
+                            {
+                                MainMenuOption2(argz[x + 1]);//scan remote
+                            }
+                            else
+                            {
+                                Error("-ERROR-  CMD Args suck and might be out of order error. Type -h for help.");
+                            }
+                            break;
+                    }
                 }
+            }
+            catch
+            {
+                DisaplyHelp();
+                Environment.Exit(0);
             }
         }
 
-        public static bool CMDerrorCheck(int Check)
+        static bool CMDerrorCheck(int Check)
         {//true is pass / false is fail
             switch (Check)
             {
@@ -116,7 +128,7 @@ namespace MassPeStudioFileScan
             return false;//none of the checks worked?!?
         }
 
-        public static void DisplayMainMenu()
+        static void DisplayMainMenu()
         {
             Console.WriteLine("\nPlease select the number from menu below to decide what to do:");
             Console.WriteLine("\n-1) Read Config file again:");
@@ -158,7 +170,7 @@ namespace MassPeStudioFileScan
             DisplayMainMenu();
         }
 
-        public static void DisplayAdminMenu()
+        static void DisplayAdminMenu()
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("\nWelcome to the Mass Scanning PeStudio File Scanner App\n");
@@ -171,7 +183,7 @@ namespace MassPeStudioFileScan
             Console.ForegroundColor = ConsoleColor.White;
         }
 
-        public static void DisaplyHelp()
+        static void DisaplyHelp()
         {
             Console.WriteLine(@"
             Mass Pestudio File Scan Help Menu:
@@ -196,7 +208,7 @@ namespace MassPeStudioFileScan
             ");
         }
 
-        public static void GetCreds()
+        static void GetCreds()
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -211,7 +223,7 @@ namespace MassPeStudioFileScan
             Console.Clear();
         }
 
-        public static void ReadConfig()
+        static void ReadConfig()
         {
                     string line;
                     if (!File.Exists(configFile))
@@ -263,7 +275,7 @@ namespace MassPeStudioFileScan
                         
         }
 
-        public static void MainMenuOption1(string FromPath="")
+        static void MainMenuOption1(string FromPath="")
         {
             string Frompath;
             Console.WriteLine("Please input file path (Local machine only supported):");
@@ -290,7 +302,7 @@ namespace MassPeStudioFileScan
             ProcessDirectory(FileCopyLoc, Frompath);
         }
 
-        public static void MainMenuOption2(string FromPath = "")
+        static void MainMenuOption2(string FromPath = "")
         {
             string Frompath;
             Console.WriteLine("Please input file path (UNC Only):");
@@ -332,7 +344,7 @@ namespace MassPeStudioFileScan
             }
         }
 
-        public static void ProcessDirectory(string targetDirectory, string OrginalPath)
+        static void ProcessDirectory(string targetDirectory, string OrginalPath)
         {
             // Process the list of files found in the directory.
             string[] fileEntries = Directory.GetFiles(targetDirectory);
@@ -364,13 +376,13 @@ namespace MassPeStudioFileScan
             }
         }
 
-        public static void ProcessFile(string file, string OrginalPath, string targetDirectory)
+        static void ProcessFile(string file, string OrginalPath, string targetDirectory)
         {
             Console.WriteLine(" -Processing "+OrginalPath+"\\"+ file);
             RunPeStudio(file, OrginalPath, targetDirectory);
         }
 
-        public static void RunPeStudio(string File, string Path, string targetDirectory)
+        static void RunPeStudio(string File, string Path, string targetDirectory)
         {
             bool started = false;
             var process = new System.Diagnostics.Process();
@@ -383,7 +395,7 @@ namespace MassPeStudioFileScan
             process.StartInfo = startInfo;
             started = process.Start();
             var procId = process.Id;
-            Console.WriteLine("\nRunning PESTUDIO PID: " + procId + "\n   cmd.exe - ARGS: " + startInfo.Arguments);
+            Console.WriteLine("\nRunning PESTUDIO PID: " + procId + "\n   cmd.exe - ARGS: " + startInfo.Arguments + " && cmd /c ReadPeStudioXML.exe " +""+ CleanUpXMLs);
             DateTime time = DateTime.Now;
             while (Process.GetProcesses().Any(x => x.Id == Convert.ToInt32(procId)) != false)
             {
@@ -395,7 +407,7 @@ namespace MassPeStudioFileScan
             }
         }
         
-        public static void RunCMDasDiffrentUser(string Cmd)
+        static void RunCMDasDiffrentUser(string Cmd)
         {
             bool started = false;
             var process = new System.Diagnostics.Process();
@@ -432,7 +444,7 @@ namespace MassPeStudioFileScan
             }
         }
 
-        public static void RunCMD(string Cmd)
+        static void RunCMD(string Cmd)
         {
             bool started = false;
             var process = new System.Diagnostics.Process();
@@ -457,7 +469,7 @@ namespace MassPeStudioFileScan
             }
         }
 
-        public static void Error(string msg)
+        static void Error(string msg)
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(msg);

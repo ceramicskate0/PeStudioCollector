@@ -46,48 +46,64 @@ namespace ReadPeStudioXML
 
         static void ParseArgs(string[] argz)
         {
-            for (int x = 0; x < argz.Length - 1; ++x)
+            try
             {
-                switch (argz[x].ToLower())
+                if (argz.Length > 0)
                 {
-                    case "-c":
-                        CleanUpXMLs = true;
-                        break;
-                    case "-m":
-                        MachineName = argz[x + 1] + "_";
-                        break;
-                    case "-f":
-                        if (File.Exists(argz[x + 1]) && argz[x + 1].ElementAt(argz[x + 1].Length).ToString().ToLower() == "l" && argz[x + 1].ElementAt(argz[x + 1].Length - 1).ToString().ToLower() == "m" && argz[x + 1].ElementAt(argz[x + 1].Length - 2).ToString().ToLower() == "x")
+                    for (int x = 0; x < argz.Length - 1; ++x)
+                    {
+                        switch (argz[x].ToLower())
                         {
-                            InputFile = argz[x + 1];
+                            case "-c":
+                                CleanUpXMLs = true;
+                                break;
+                            case "-m":
+                                MachineName = argz[x + 1] + "_";
+                                break;
+                            case "-f":
+                                if (File.Exists(argz[x + 1]) && argz[x + 1].ElementAt(argz[x + 1].Length).ToString().ToLower() == "l" && argz[x + 1].ElementAt(argz[x + 1].Length - 1).ToString().ToLower() == "m" && argz[x + 1].ElementAt(argz[x + 1].Length - 2).ToString().ToLower() == "x")
+                                {
+                                    InputFile = argz[x + 1];
+                                }
+                                else
+                                {
+                                    Error("ERROR invalid file found");
+                                    Environment.Exit(1);
+                                }
+                                break;
+                            case "-i":
+                                Console.WriteLine("Enter PeStudio XML file to read:");
+                                InputFile = Console.ReadLine();
+                                if (File.Exists(InputFile) && InputFile.ElementAt(InputFile.Length).ToString().ToLower() == "l" && InputFile.ElementAt(InputFile.Length - 1).ToString().ToLower() == "m" && InputFile.ElementAt(InputFile.Length - 2).ToString().ToLower() == "x")
+                                {
+
+                                }
+                                else
+                                {
+                                    Error("ERROR invalid file found. Enter to exit.");
+                                    Console.ReadKey();
+                                    Environment.Exit(1);
+                                }
+                                break;
+                            case "-h":
+                                DisplayHelp();
+                                break;
+                            case "-o":
+                                OutputFile = argz[x + 1];
+                                break;
                         }
-                        else
-                        {
-                            Error("ERROR invalid file found");
-                            Environment.Exit(1);
-                        }
-                        break;
-                    case "-i":
-                        Console.WriteLine("Enter PeStudio XML file to read:");
-                        InputFile = Console.ReadLine();
-                        if (File.Exists(InputFile) && InputFile.ElementAt(InputFile.Length).ToString().ToLower() == "l" && InputFile.ElementAt(InputFile.Length - 1).ToString().ToLower() == "m" && InputFile.ElementAt(InputFile.Length - 2).ToString().ToLower() == "x")
-                        {
-                            
-                        }
-                        else
-                        {
-                            Error("ERROR invalid file found. Enter to exit.");
-                            Console.ReadKey();
-                            Environment.Exit(1);
-                        }
-                        break;
-                    case "-h":
-                       DisplayHelp();
-                       break;
-                   case "-o":
-                       OutputFile = argz[x + 1];
-                        break;
+                    }
                 }
+                else
+                {
+                    DisplayHelp();
+                    Environment.Exit(0);
+                }
+            }
+            catch
+            {
+                DisplayHelp();
+                Environment.Exit(0);
             }
         }
 
@@ -245,8 +261,6 @@ namespace ReadPeStudioXML
             CMD line usage: ReadPeStudioXML -f {File path}.xml   
             Interactive Usage: ReadPeStudioXML -i 
             App generates 1 output file per scan and will overwrite.
-
-            Press enter to proceed out of help menu
             ");
         }
     }
