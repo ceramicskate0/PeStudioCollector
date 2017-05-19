@@ -1,0 +1,6 @@
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\ReadPeStudioXML\bin\Debug\ReadPeStudioXML.exe.config
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\ReadPeStudioXML\bin\Debug\ReadPeStudioXML.exe
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\ReadPeStudioXML\bin\Debug\ReadPeStudioXML.pdb
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\ReadPeStudioXML\obj\Debug\ReadPeStudioXML.exe
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\ReadPeStudioXML\obj\Debug\ReadPeStudioXML.pdb
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\ReadPeStudioXML\obj\Debug\ReadPeStudioXML.csprojResolveAssemblyReference.cache
