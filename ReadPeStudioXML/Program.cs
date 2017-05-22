@@ -11,22 +11,51 @@ namespace ReadPeStudioXML
     class Program
     {
         public static string InputFile = "";
+        public static string InputDir = "";
         public static XmlTextReader reader = new XmlTextReader(InputFile);
         public static List<FileIOC> MachineFileList = new List<FileIOC>();
         public static int RecordCounter = 0;
         public static int ModVari = 10000;
         public static int FileCount=1;
         public static bool FirstRun = true;
-        public static bool CleanUpXMLs = false;
+        public static bool CleanUpXMLs = true;
         public static string MachineName = "";
-        public static string OutputFile = MachineName + DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Year + "_Scan_Summary.csv";
+        public static string OutputFile = MachineName + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Year + "_Scan_Summary.csv";
 
         static void Main(string[] args)
         {
             ParseArgs(args);
-            CountLineInFile(OutputFile);
-            ReadandParseXML();
-            WriteCSV();
+            try
+            {
+                if (Directory.Exists(InputDir))
+                {
+                    string[] fileEntries = Directory.GetFiles(InputDir);
+                    foreach (string fileName in fileEntries)
+                    {
+                        InputFile = fileName;
+                        if (File.Exists(InputFile) && Path.GetExtension(InputFile)=="xml")
+                        {
+                        CountLineInFile(OutputFile);
+                        ReadandParseXML();
+                        WriteCSV();
+                        }
+                    }
+                }
+                if (File.Exists(InputFile) && Path.GetExtension(InputFile) == "xml")
+                {
+                    CountLineInFile(OutputFile);
+                    ReadandParseXML();
+                    WriteCSV();
+                }
+                else
+                {
+                    Error(" -Error- Your input sucks error");
+                }
+            }
+            catch (Exception e)
+            {
+                Error(" -Error- "+e.Message.ToString());
+            }
         }
 
         static int CountLineInFile(string outfile)
@@ -55,13 +84,16 @@ namespace ReadPeStudioXML
                         switch (argz[x].ToLower())
                         {
                             case "-c":
-                                CleanUpXMLs = true;
+                                CleanUpXMLs = false;
+                                break;
+                            case "-d":
+                                InputDir = argz[x + 1];
                                 break;
                             case "-m":
                                 MachineName = argz[x + 1] + "_";
                                 break;
                             case "-f":
-                                if (File.Exists(argz[x + 1]) && argz[x + 1].ElementAt(argz[x + 1].Length).ToString().ToLower() == "l" && argz[x + 1].ElementAt(argz[x + 1].Length - 1).ToString().ToLower() == "m" && argz[x + 1].ElementAt(argz[x + 1].Length - 2).ToString().ToLower() == "x")
+                                if (File.Exists(argz[x + 1]) && Path.GetExtension(InputFile) == "xml")
                                 {
                                     InputFile = argz[x + 1];
                                 }
@@ -73,8 +105,9 @@ namespace ReadPeStudioXML
                                 break;
                             case "-i":
                                 Console.WriteLine("Enter PeStudio XML file to read:");
+                                Console.Write(">");
                                 InputFile = Console.ReadLine();
-                                if (File.Exists(InputFile) && InputFile.ElementAt(InputFile.Length).ToString().ToLower() == "l" && InputFile.ElementAt(InputFile.Length - 1).ToString().ToLower() == "m" && InputFile.ElementAt(InputFile.Length - 2).ToString().ToLower() == "x")
+                                if (File.Exists(InputFile) && Path.GetExtension(InputFile)=="xml")
                                 {
 
                                 }
@@ -242,12 +275,13 @@ namespace ReadPeStudioXML
         static void DisplayHelp()
         {
             Console.WriteLine(@"
-            Help menu for Pestudio XML parser:
+Help menu for Pestudio XML parser:
             This app currently only looks at the top part of the xml for indicatgors. To change this you will need to add them to the pestudio configs.
 
             Args:
             -f File to be parsed for csv output
-            -i Go interactive
+            -d Dir to be parsed for csv output (only xml files will be parsed)
+            -i Run interactive
             -h Show Help Menu
             -o Tell app to use non default output file and path other than PWD
             -m Machine Name for use in file output

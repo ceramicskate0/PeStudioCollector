@@ -21,31 +21,53 @@ namespace MassPeStudioFileScan
         private static string Domain;
         private static string Username;
         public static string  CleanUpXMLs = "";
+        private static string RoboCopyByteLimit="10000000";
         public static string FileTypesToMove = "*.com *.vbs *.cs *.exe *.wav *.bin *.bny *.php *.ws *.wsf *.run *.rgs *.msi *.job *.hta *.jar *.wsc *.ps2 *.psc1 *.psc2 *.pdf *.inf *.dll *.psm *.cmd *.bat *.ps1 *.ps *.js *.jse *.vbe *.vb *.zip *.swf *.java *.cv1 *.doc *.docx *.dot *.docm *.xls *.xlsx *.xlt *.xla *.xll *xlsm *.ppt *.pptx *.tmp *.htm *.html *.xhtml *.msg *.dat *.sys";                 
         
         static void Main(string[] args)
         {
-            if (args.Length == 0)
+            Console.Clear();
+            if (args.Length == 0)//interactive start
             {
                 ReadConfig();
-                DisplayAdminMenu();
                 DisplayMainMenu();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("\n\n--ALL DONE SCANNING--");
+                Console.ForegroundColor = ConsoleColor.White;
+
+                //at this point all files are scaned and ready to have the XML read
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("\n\n--Starting to parse XML files from PeStudio--");
+                Console.ForegroundColor = ConsoleColor.White;
+                RunReadPeStudioXML();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("\n\n--ALL DONE--");
+                Console.ForegroundColor = ConsoleColor.White;
             }
-            else
+            else//cmd line start
            {
                 ReadConfig();
                 ParseExeCmdArgs(args);
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("\n\n--ALL DONE SCANNING--");
+                Console.ForegroundColor = ConsoleColor.White;
+
+                //at this point all files are scaned and ready to have the XML read
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("\n\n--Starting to parse XML files from PeStudio--");
+                Console.ForegroundColor = ConsoleColor.White;
+                RunReadPeStudioXML();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("\n\n--ALL DONE--");
+                Console.ForegroundColor = ConsoleColor.White;
             }
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("\n\n--ALL DONE SCANNING--");
-            Console.ForegroundColor = ConsoleColor.White;
         }
 
         static void ParseExeCmdArgs(string[] argz)
         {
             try
             {
-                for (int x = 0; x < argz.Length - 1; ++x)
+                for (int x = 0; x < argz.Length; ++x)
                 {
                     switch (argz[x].ToLower())
                     {
@@ -57,10 +79,10 @@ namespace MassPeStudioFileScan
                             break;
                        case "-h":
                             DisaplyHelp();
+                            Environment.Exit(0);
                             break;
                         case "-p":
                             Pass = argz[x + 1];
-                            MainMenuOption2();//Scan Dir or File local
                             break;
                         case "-c":
                             CleanUpXMLs = "-c";
@@ -133,10 +155,11 @@ namespace MassPeStudioFileScan
             Console.WriteLine("\nPlease select the number from menu below to decide what to do:");
             Console.WriteLine("\n-1) Read Config file again:");
             Console.WriteLine("\n0) Display Admin info:");
-            Console.WriteLine("\n1) Input file path for single file to scan or Dir path to scan (Recusive all sub Dirs)(Local Machine):");
-            Console.WriteLine("\n2) Input file path for single file to scan or Dir path to scan (Recusive all sub Dirs)(Remote Machine):");
+            Console.WriteLine("\n1) Input file path for single file to scan or Dir path to scan (Recusive all sub Dirs)(LOCAL Machine):");
+            Console.WriteLine("\n2) Input file path for single file to scan or Dir path to scan (Recusive all sub Dirs)(REMOTE Machine):");
+            Console.WriteLine("\n3) Clean up Files moved and Ooops file path to long errors to delete.");
             Console.WriteLine("\n99) EXIT App");
-
+            Console.Write(">");
             int opt = 0;
             try
             {
@@ -163,6 +186,9 @@ namespace MassPeStudioFileScan
                 case 2:
                     MainMenuOption2();//Scan Dir or File remote
                     break;
+                case 3:
+                    MainMenuOption3();
+                    break;
                 case 99:
                     Environment.Exit(0);
                     break;
@@ -176,9 +202,9 @@ namespace MassPeStudioFileScan
             Console.WriteLine("\nWelcome to the Mass Scanning PeStudio File Scanner App\n");
             Console.WriteLine("-----------------Admin Notes--------------------------");
             Console.WriteLine("  Expected Config File Loc: " +Directory.GetCurrentDirectory().ToString()+"\\"+ configFile + "\n");
-            Console.WriteLine("  Output Loc: "+ outputLocation+"\n");
-            Console.WriteLine("  PESTUDIO Loc Loc: "+ PEstudioLoc+"\n");
-            Console.WriteLine("  Copy Files here Loc: "+ FileCopyLoc+"\n");
+            Console.WriteLine("  Output XML files Location: " + outputLocation + "\n");
+            Console.WriteLine("  PESTUDIO.exe's Location: " + PEstudioLoc + "\n");
+            Console.WriteLine("  Copy Files to scan here Location: "+ FileCopyLoc+"\n");
             Console.WriteLine("-------------------------------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
         }
@@ -186,7 +212,7 @@ namespace MassPeStudioFileScan
         static void DisaplyHelp()
         {
             Console.WriteLine(@"
-            Mass Pestudio File Scan Help Menu:
+Mass Pestudio File Scan Help Menu:
            
             Commands:            
 
@@ -195,7 +221,7 @@ namespace MassPeStudioFileScan
                 -u Username (withour Domain)
                 -p Password for account
                 -d Domain Name (or use '.' for local account on remote machine)
-
+            -c Tells app to NOT clean up XML files made by PeStudio
             Interactive Calls for Commands:
             -lt Interactivley copy and scan file from Local Target
             -rt Interactivley copy and scan file from Remote Target
@@ -212,13 +238,17 @@ namespace MassPeStudioFileScan
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(" NOTE: I need an account with permissions to use to start app. If yours has permission on the machine you wish to use please hit enter through promts.\n");
             Console.WriteLine(" NOTE: Its recommend this account be Admin on the remote machine or domain\n");
             Console.ForegroundColor=ConsoleColor.White;
-            Console.WriteLine("Please Enter Your Account Name (No Domain):");
+            Console.WriteLine("Please Enter Just the Accounts Name:");
+            Console.Write(">");
             Username = Console.ReadLine();
             Console.WriteLine("\nPlease Enter above accounts Domain (if local type '.'):");
+            Console.Write(">");
             Domain = Console.ReadLine();
             Console.WriteLine("\nPlease Enter above accounts Password:");
+            Console.Write(">");
             Pass = Console.ReadLine();
             Console.Clear();
         }
@@ -290,6 +320,7 @@ namespace MassPeStudioFileScan
             if (String.IsNullOrEmpty(FileTypesToMove))
             {
                 Console.WriteLine("I noticed you have no specfic file types to move. Do you want to use default(y/n)?");
+                Console.Write(">");
                 string ans=Console.ReadLine().ToLower();
                 if (ans.ToLower() == "n")
                 {
@@ -298,14 +329,14 @@ namespace MassPeStudioFileScan
                 }
             }
             Console.Clear();
-            RunCMD("robocopy " + Frompath + " "+ FileCopyLoc + " " + FileTypesToMove + " /XF pagefile.sys hiberfil.sys /XJ /max:26214400 /R:0 /xjd /s");
+            RunCMD("robocopy " + Frompath + " " + FileCopyLoc + " " + FileTypesToMove + " /XF pagefile.sys hiberfil.sys /XJ /max:"+RoboCopyByteLimit+" /R:0 /xjd /s");
             ProcessDirectory(FileCopyLoc, Frompath);
         }
 
         static void MainMenuOption2(string FromPath = "")
         {
             string Frompath;
-            Console.WriteLine("Please input file path (UNC Only):");
+            Console.WriteLine("Please input file path (local\\UNC Only):");
             if (FromPath == "")
             {
                 Frompath = Console.ReadLine();
@@ -318,6 +349,7 @@ namespace MassPeStudioFileScan
             if (String.IsNullOrEmpty(FileTypesToMove))
             {
                 Console.WriteLine("I noticed you have no specfic file types to move. Do you want to use default(y/n)?");
+                Console.Write(">");
                 string ans = Console.ReadLine().ToLower();
                 if (ans.ToLower() == "n")
                 {
@@ -330,7 +362,7 @@ namespace MassPeStudioFileScan
             {
                 if (File.Exists(FromPath) || Directory.Exists(FromPath))
                 {
-                    RunCMDasDiffrentUser("robocopy " + Frompath + " " + FileCopyLoc + " " + FileTypesToMove + " /XF pagefile.sys hiberfil.sys /XJ /max:26214400 /R:0 /xjd /s");
+                    RunCMDasDiffrentUser("robocopy " + Frompath + " " + FileCopyLoc + " " + FileTypesToMove + " /XF pagefile.sys hiberfil.sys /XJ /max:"+RoboCopyByteLimit+" /R:0 /xjd /s");
                     ProcessDirectory(FileCopyLoc, Frompath);
                 }
                 else
@@ -340,13 +372,40 @@ namespace MassPeStudioFileScan
             }
             catch
             {
-                Error("-ERROR-  CMD Args suck and cant find what u wanted error. Type -h for help.");
+                Error("-ERROR-  CMD Args suck and cant find what u wanted on file system error. Type -h for help.");
+                Error(FromPath);
+                Error(Frompath);
+            }
+        }
+
+        static void MainMenuOption3()
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Cleaning up by deleting all file in " + FileCopyLoc + "\nIll be killing anything using Robocopy also because I use that and right now I think I shouldnt be.\n Is that ok?");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write(">");
+            string ans= Console.ReadLine();
+            if (ans.ToLower() == "y")
+            {
+                var robocopy = Process.GetProcesses().Where(pr => pr.ProcessName == "robocopy");
+                foreach (var process in robocopy)
+                {
+                    process.Kill();
+                }
+                RunCMD(" mkdir empty && robocopy empty " + FileCopyLoc + " //s //mir && del empty");
+            }
+            else
+            {
+                Console.WriteLine("Ok maybe later. If error in file path please change in config file and reload config or app to fix.");
+
             }
         }
 
         static void ProcessDirectory(string targetDirectory, string OrginalPath)
         {
             // Process the list of files found in the directory.
+            Console.Clear();
             string[] fileEntries = Directory.GetFiles(targetDirectory);
             foreach (string fileName in fileEntries)
             {
@@ -357,9 +416,16 @@ namespace MassPeStudioFileScan
                 }
                 catch (Exception e)
                 {
-                    Error(" -Error- Failed to process " + fileName +"    \nReason: "+ e.Message.ToString());
+                    Error(" -Error- Failed to Process " + fileName +"    \nReason: "+ e.Message.ToString());
                 }
-                File.Delete(fileName);
+                try
+                {
+                    File.Delete(fileName);
+                }
+                catch (Exception e)
+                {
+                    Error(" -Error- Failed to Delete " + fileName + "    \nReason: " + e.Message.ToString());
+                }
             }
             // Recurse into subdirectories of this directory.
             string[] subdirectoryEntries = Directory.GetDirectories(targetDirectory);
@@ -395,13 +461,16 @@ namespace MassPeStudioFileScan
             process.StartInfo = startInfo;
             started = process.Start();
             var procId = process.Id;
-            Console.WriteLine("\nRunning PESTUDIO PID: " + procId + "\n   cmd.exe - ARGS: " + startInfo.Arguments + " && cmd /c ReadPeStudioXML.exe " +""+ CleanUpXMLs);
-            DateTime time = DateTime.Now;
+            Console.WriteLine("\nRunning PESTUDIO PID: " + procId + "\n   cmd.exe - ARGS: " + startInfo.Arguments);
+            Stopwatch timer = new Stopwatch();
+            timer.Start();
             while (Process.GetProcesses().Any(x => x.Id == Convert.ToInt32(procId)) != false)
             {
-                if (time.Minute - DateTime.Now.Minute > 3)
+                if (timer.Elapsed > TimeSpan.FromMinutes(3))
                 {
-                    Error("\nWARNING - So the process called to do pestudiox.exe is slow please kill it if this is an issue\n");
+                    Error("\nWARNING - So the process called to do CMD>pestudiox.exe is slow please kill it if this is an issue\n");
+                    Process p = Process.GetProcessById(procId);
+                    p.Kill();
                     break;
                 }
             }
@@ -439,9 +508,18 @@ namespace MassPeStudioFileScan
                 if (time.Minute - DateTime.Now.Minute > 3)
                 {
                     Error("\nWARNING - So the process called to do " + Cmd + " is slow please kill it if this is an issue\n");
+                    Process p = Process.GetProcessById(procId);
+                    p.Kill();
                     break;
                 }
             }
+        }
+
+        static void Error(string msg)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(msg);
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
         static void RunCMD(string Cmd)
@@ -458,22 +536,45 @@ namespace MassPeStudioFileScan
             started = process.Start();
             var procId = process.Id;
             Console.WriteLine("Running CMD PID: " + procId + "\n   cmd.exe - ARGS: " + startInfo.Arguments);
-            DateTime time = DateTime.Now;
+            Stopwatch timer = new Stopwatch ();
+            timer.Start();
             while (Process.GetProcesses().Any(x => x.Id == Convert.ToInt32(procId)) != false)
             {
-                if (time.Minute - DateTime.Now.Minute > 3)
+                if (timer.Elapsed > TimeSpan.FromMinutes(3))
                 {
                     Error("\nWARNING - So the process called to do " + Cmd + " is slow please kill it if this is an issue\n");
+                    Process p = Process.GetProcessById(procId);
+                    p.Kill();
                     break;
                 }
             }
         }
 
-        static void Error(string msg)
+        static void RunReadPeStudioXML()
         {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(msg);
-            Console.ForegroundColor = ConsoleColor.White;
+            bool started = false;
+            var process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = "/C ReadPeStudioXML.exe -d " + outputLocation;
+            startInfo.CreateNoWindow = true;
+            process.StartInfo = startInfo;
+            started = process.Start();
+            var procId = process.Id;
+            Console.WriteLine("\nRunning ReadPeStudioXML PID: " + procId);
+            //Stopwatch timer = new Stopwatch();
+            //timer.Start();
+            //while (Process.GetProcesses().Any(x => x.Id == Convert.ToInt32(procId)) != false)
+            //{
+            //    if (timer.Elapsed > TimeSpan.FromMinutes(3))
+            //    {
+            //        Error("\nWARNING - So the process called to do CMD>pestudiox.exe is slow please kill it if this is an issue\n");
+            //        Process p = Process.GetProcessById(procId);
+            //        p.Kill();
+            //        break;
+            //    }
+            //}
         }
 
         //TODO
