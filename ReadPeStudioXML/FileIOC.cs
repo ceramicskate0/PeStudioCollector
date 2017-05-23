@@ -23,7 +23,7 @@ namespace ReadPeStudioXML
             {
                 for (int x = 0; x < IOC.Count; ++x)
                 {
-                    totalSeverity = +IOC.ElementAt(x).num;
+                    totalSeverity =+ IOC.ElementAt(x).num;
                 }
             }
             get
@@ -33,7 +33,6 @@ namespace ReadPeStudioXML
         }
 
         public string Count { get; set; }
-
 
         public void AddIOC(int num, string text)
         {

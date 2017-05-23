@@ -12,7 +12,6 @@ namespace ReadPeStudioXML
     {
         public static string InputFile = "";
         public static string InputDir = "";
-        public static XmlTextReader reader = new XmlTextReader(InputFile);
         public static List<FileIOC> MachineFileList = new List<FileIOC>();
         public static int RecordCounter = 0;
         public static int ModVari = 10000;
@@ -33,7 +32,7 @@ namespace ReadPeStudioXML
                     foreach (string fileName in fileEntries)
                     {
                         InputFile = fileName;
-                        if (File.Exists(InputFile) && Path.GetExtension(InputFile)=="xml")
+                        if (File.Exists(InputFile) && Path.GetExtension(InputFile)==".xml")
                         {
                         CountLineInFile(OutputFile);
                         ReadandParseXML();
@@ -41,7 +40,7 @@ namespace ReadPeStudioXML
                         }
                     }
                 }
-                if (File.Exists(InputFile) && Path.GetExtension(InputFile) == "xml")
+                if (File.Exists(InputFile) && Path.GetExtension(InputFile) == ".xml")
                 {
                     CountLineInFile(OutputFile);
                     ReadandParseXML();
@@ -93,7 +92,7 @@ namespace ReadPeStudioXML
                                 MachineName = argz[x + 1] + "_";
                                 break;
                             case "-f":
-                                if (File.Exists(argz[x + 1]) && Path.GetExtension(InputFile) == "xml")
+                                if (File.Exists(argz[x + 1]) && Path.GetExtension(InputFile) == ".xml")
                                 {
                                     InputFile = argz[x + 1];
                                 }
@@ -107,7 +106,7 @@ namespace ReadPeStudioXML
                                 Console.WriteLine("Enter PeStudio XML file to read:");
                                 Console.Write(">");
                                 InputFile = Console.ReadLine();
-                                if (File.Exists(InputFile) && Path.GetExtension(InputFile)=="xml")
+                                if (File.Exists(InputFile) && Path.GetExtension(InputFile)==".xml")
                                 {
 
                                 }
@@ -142,6 +141,7 @@ namespace ReadPeStudioXML
 
         static void ReadandParseXML()
         {
+            XmlTextReader reader = new XmlTextReader(InputFile);
             FileIOC Fileioc = new FileIOC();
             string CurrentElement="";
             int sev = 0;
@@ -193,7 +193,7 @@ namespace ReadPeStudioXML
 
         static void WriteCSV()
         {
-            if (RecordCounter % ModVari >= 0)
+            if (CountLineInFile(OutputFile) > ModVari)
             {
                 Error("\nWARNING Your file ("+OutputFile+")may exceed Excels max limit for performance. Ill break it up for you to be sure you dont crash Excel.");
                 WriteFile(0, OutputFile);

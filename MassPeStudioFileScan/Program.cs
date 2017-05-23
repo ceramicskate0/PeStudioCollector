@@ -167,18 +167,21 @@ namespace MassPeStudioFileScan
             }
             catch
             {
-                Error("ERROR - Your inputs sucks error. Hit any key to exit or to try again.");
+                Error("ERROR - Your inputs sucks error. Hit any key to continue.");
                 Console.ReadKey();
-                Environment.Exit(1);
+                DisplayMainMenu();
             }
 
             switch (opt)
             {
                 case -1:
+                    ReadConfig();
                     DisplayAdminMenu();
+                    DisplayMainMenu();
                     break;
                 case 0:
                     DisplayAdminMenu();
+                    DisplayMainMenu();
                     break;
                 case 1:
                     MainMenuOption1();//Scan Dir or File local
@@ -188,12 +191,15 @@ namespace MassPeStudioFileScan
                     break;
                 case 3:
                     MainMenuOption3();
+                    DisplayMainMenu();
                     break;
                 case 99:
                     Environment.Exit(0);
                     break;
             }
-            DisplayMainMenu();
+            Console.Clear();
+            Console.WriteLine("Cleaning up working dir.\n" + FileCopyLoc);
+            RunCMD("mkdir empty && robocopy empty " + FileCopyLoc + " //s //mir");
         }
 
         static void DisplayAdminMenu()
@@ -329,7 +335,7 @@ Mass Pestudio File Scan Help Menu:
                 }
             }
             Console.Clear();
-            RunCMD("robocopy " + Frompath + " " + FileCopyLoc + " " + FileTypesToMove + " /XF pagefile.sys hiberfil.sys /XJ /max:"+RoboCopyByteLimit+" /R:0 /xjd /s");
+            RunCMD("robocopy " + Frompath + " " + FileCopyLoc + " " + FileTypesToMove + " /XF pagefile.sys hiberfil.sys /XJ /max:" + RoboCopyByteLimit + " /R:0 /XJ /XO /S /ETA");
             ProcessDirectory(FileCopyLoc, Frompath);
         }
 
@@ -362,7 +368,7 @@ Mass Pestudio File Scan Help Menu:
             {
                 if (File.Exists(FromPath) || Directory.Exists(FromPath))
                 {
-                    RunCMDasDiffrentUser("robocopy " + Frompath + " " + FileCopyLoc + " " + FileTypesToMove + " /XF pagefile.sys hiberfil.sys /XJ /max:"+RoboCopyByteLimit+" /R:0 /xjd /s");
+                    RunCMDasDiffrentUser("robocopy " + Frompath + " " + FileCopyLoc + " " + FileTypesToMove + " /XF pagefile.sys hiberfil.sys /XJ /max:" + RoboCopyByteLimit + " /R:0 /XJ /XO /S /ETA");
                     ProcessDirectory(FileCopyLoc, Frompath);
                 }
                 else
@@ -393,7 +399,7 @@ Mass Pestudio File Scan Help Menu:
                 {
                     process.Kill();
                 }
-                RunCMD(" mkdir empty && robocopy empty " + FileCopyLoc + " //s //mir && del empty");
+                RunCMD("mkdir empty && robocopy empty " + FileCopyLoc + " //s //mir");
             }
             else
             {
