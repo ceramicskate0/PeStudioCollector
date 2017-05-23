@@ -1,24 +1,775 @@
-c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\properties\assemblyinfo.cs,n/a,,1,862F564F82DDD8728F11BAB77449065C,24A28546403C6040B9024E7F546D5B82560A1C2F,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\properties\assemblyinfo.cs,n/a,,1,862F564F82DDD8728F11BAB77449065C,24A28546403C6040B9024E7F546D5B82560A1C2F,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\authbrokerlogreview.bat,n/a,,1,692CFCC6E56672207130449E6A4EAE1D,5D75D2EDD9C3CA625EF77BA625B896566FAC4BB2,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\properties\assemblyinfo.cs,n/a,,1,862F564F82DDD8728F11BAB77449065C,24A28546403C6040B9024E7F546D5B82560A1C2F,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\authbrokerlogreview.bat,n/a,,1,692CFCC6E56672207130449E6A4EAE1D,5D75D2EDD9C3CA625EF77BA625B896566FAC4BB2,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\av_status.dat,n/a,,1,1465825BC6D44A1F6D3AD872A985D3CD,FD5DC3E167A613D5147F9B4A9DA1B36EF111F82B,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\properties\assemblyinfo.cs,n/a,,1,862F564F82DDD8728F11BAB77449065C,24A28546403C6040B9024E7F546D5B82560A1C2F,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\authbrokerlogreview.bat,n/a,,1,692CFCC6E56672207130449E6A4EAE1D,5D75D2EDD9C3CA625EF77BA625B896566FAC4BB2,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\av_status.dat,n/a,,1,1465825BC6D44A1F6D3AD872A985D3CD,FD5DC3E167A613D5147F9B4A9DA1B36EF111F82B,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\changeguestwifipassword.bat,n/a,,2,3D28FB86995CE7E6B6A62643D2D7DB4B,C9E7F8A3C0AE47CF564C8EE9DF8D75111C133D8A,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\start.cmd,n/a,Not in VirusTotal,2,A80E71C97C8FEBF14070E99B07A0A9D1,331C9BC3E1CF61D93A3DD5358FC80C5F2FA94CB7,0,The file is not an executable file,9
 ,,,,,,,The file references blacklisted string(s),1
-c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\properties\assemblyinfo.cs,n/a,,1,862F564F82DDD8728F11BAB77449065C,24A28546403C6040B9024E7F546D5B82560A1C2F,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\authbrokerlogreview.bat,n/a,,1,692CFCC6E56672207130449E6A4EAE1D,5D75D2EDD9C3CA625EF77BA625B896566FAC4BB2,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\av_status.dat,n/a,,1,1465825BC6D44A1F6D3AD872A985D3CD,FD5DC3E167A613D5147F9B4A9DA1B36EF111F82B,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\changeguestwifipassword.bat,n/a,,2,3D28FB86995CE7E6B6A62643D2D7DB4B,C9E7F8A3C0AE47CF564C8EE9DF8D75111C133D8A,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\start.cmd,n/a,Not in VirusTotal,2,A80E71C97C8FEBF14070E99B07A0A9D1,331C9BC3E1CF61D93A3DD5358FC80C5F2FA94CB7,0,The file is not an executable file,9
 ,,,,,,,The file references blacklisted string(s),1
-c:\scripts\pestudio\tmp\cleanup.bat,n/a,,1,10D4A02C255A8A9346D75FC1957F7BF0,B6BBF7024E45D4232874F1170BA1734A47A98401,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\properties\assemblyinfo.cs,n/a,,1,862F564F82DDD8728F11BAB77449065C,24A28546403C6040B9024E7F546D5B82560A1C2F,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\authbrokerlogreview.bat,n/a,,1,692CFCC6E56672207130449E6A4EAE1D,5D75D2EDD9C3CA625EF77BA625B896566FAC4BB2,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\av_status.dat,n/a,,1,1465825BC6D44A1F6D3AD872A985D3CD,FD5DC3E167A613D5147F9B4A9DA1B36EF111F82B,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\changeguestwifipassword.bat,n/a,,2,3D28FB86995CE7E6B6A62643D2D7DB4B,C9E7F8A3C0AE47CF564C8EE9DF8D75111C133D8A,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\startdailylogreview.bat,n/a,Not in VirusTotal,1,11B1294EBB84596CB71AA4849B707879,9FE8371FBBA3645EDC0B56355D8E580818982749,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\start.cmd,n/a,Not in VirusTotal,2,A80E71C97C8FEBF14070E99B07A0A9D1,331C9BC3E1CF61D93A3DD5358FC80C5F2FA94CB7,0,The file is not an executable file,9
 ,,,,,,,The file references blacklisted string(s),1
-c:\scripts\pestudio\tmp\cleanup.bat,n/a,,1,10D4A02C255A8A9346D75FC1957F7BF0,B6BBF7024E45D4232874F1170BA1734A47A98401,0,The file is not an executable file,9
-c:\scripts\pestudio\tmp\cleanup.ps1,n/a,,1,7271FB96FBCE0D966F512AC82E1112BD,F00A51A8F75F9661A5B481F1575FD1A2F0A09FE9,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\startdailylogreview.bat,n/a,Not in VirusTotal,1,11B1294EBB84596CB71AA4849B707879,9FE8371FBBA3645EDC0B56355D8E580818982749,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\startdailylogreviewiepart.bat,n/a,Not in VirusTotal,1,2E25D002974109EE6A6C1111DDEF23BE,FF297C515038F8C2C1DD97D0059E69F61114C90D,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\start.cmd,n/a,Not in VirusTotal,2,A80E71C97C8FEBF14070E99B07A0A9D1,331C9BC3E1CF61D93A3DD5358FC80C5F2FA94CB7,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\startdailylogreview.bat,n/a,Not in VirusTotal,1,11B1294EBB84596CB71AA4849B707879,9FE8371FBBA3645EDC0B56355D8E580818982749,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\startdailylogreviewiepart.bat,n/a,Not in VirusTotal,1,2E25D002974109EE6A6C1111DDEF23BE,FF297C515038F8C2C1DD97D0059E69F61114C90D,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\startinvestigatingalert.bat,n/a,Not in VirusTotal,2,6366F9751191CE4899EC3BEB425E7B7D,B0C80F010CA6B42534193279D6B211CCF10A16C2,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.cmd,n/a,Not in VirusTotal,2,B68AE1D70BA7BAF1ABDD94275D020F9C,970F8BEF8658AC7003C9808C19C9A74CACC97D41,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.cmd,n/a,Not in VirusTotal,2,B68AE1D70BA7BAF1ABDD94275D020F9C,970F8BEF8658AC7003C9808C19C9A74CACC97D41,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.inf,n/a,Not in VirusTotal,2,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.cmd,n/a,Not in VirusTotal,2,B68AE1D70BA7BAF1ABDD94275D020F9C,970F8BEF8658AC7003C9808C19C9A74CACC97D41,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.inf,n/a,Not in VirusTotal,2,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\xpg\windows xp service pack 2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,5DD626B9057EF111CF08C170E31C9A1A,ED19DF5C23D1D52B63345FDCEEBD6B9097B19696,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.cmd,n/a,Not in VirusTotal,2,B68AE1D70BA7BAF1ABDD94275D020F9C,970F8BEF8658AC7003C9808C19C9A74CACC97D41,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.inf,n/a,Not in VirusTotal,2,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\xpg\windows xp service pack 2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,5DD626B9057EF111CF08C170E31C9A1A,ED19DF5C23D1D52B63345FDCEEBD6B9097B19696,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.cmd,n/a,Not in VirusTotal,2,B5DCD0CD0A6117F3F19AA1CE132053DD,FFEDCFAEEECB85B65E742EB02533D38599353097,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.cmd,n/a,Not in VirusTotal,2,B68AE1D70BA7BAF1ABDD94275D020F9C,970F8BEF8658AC7003C9808C19C9A74CACC97D41,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.inf,n/a,Not in VirusTotal,2,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\xpg\windows xp service pack 2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,5DD626B9057EF111CF08C170E31C9A1A,ED19DF5C23D1D52B63345FDCEEBD6B9097B19696,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.cmd,n/a,Not in VirusTotal,2,B5DCD0CD0A6117F3F19AA1CE132053DD,FFEDCFAEEECB85B65E742EB02533D38599353097,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.inf,n/a,Not in VirusTotal,2,919DB9DE982A56649CC9D2BB0E33C69B,7C1FA3FD0BC81B3A65AD8F871F8189C23A22967B,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.cmd,n/a,Not in VirusTotal,2,B68AE1D70BA7BAF1ABDD94275D020F9C,970F8BEF8658AC7003C9808C19C9A74CACC97D41,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.inf,n/a,Not in VirusTotal,2,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\xpg\windows xp service pack 2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,5DD626B9057EF111CF08C170E31C9A1A,ED19DF5C23D1D52B63345FDCEEBD6B9097B19696,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.cmd,n/a,Not in VirusTotal,2,B5DCD0CD0A6117F3F19AA1CE132053DD,FFEDCFAEEECB85B65E742EB02533D38599353097,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.inf,n/a,Not in VirusTotal,2,919DB9DE982A56649CC9D2BB0E33C69B,7C1FA3FD0BC81B3A65AD8F871F8189C23A22967B,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.cmd,n/a,The file is scored (0/42) by virustotal,3,E55EB5EFC68488926F9F9676FB1E46BA,FB5D6778EBD66C9FDFB6F0B06F0B908605B4E2B2,0,The file is scored (0/42) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.cmd,n/a,Not in VirusTotal,2,B68AE1D70BA7BAF1ABDD94275D020F9C,970F8BEF8658AC7003C9808C19C9A74CACC97D41,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.inf,n/a,Not in VirusTotal,2,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\xpg\windows xp service pack 2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,5DD626B9057EF111CF08C170E31C9A1A,ED19DF5C23D1D52B63345FDCEEBD6B9097B19696,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.cmd,n/a,Not in VirusTotal,2,B5DCD0CD0A6117F3F19AA1CE132053DD,FFEDCFAEEECB85B65E742EB02533D38599353097,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.inf,n/a,Not in VirusTotal,2,919DB9DE982A56649CC9D2BB0E33C69B,7C1FA3FD0BC81B3A65AD8F871F8189C23A22967B,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.cmd,n/a,The file is scored (0/42) by virustotal,3,E55EB5EFC68488926F9F9676FB1E46BA,FB5D6778EBD66C9FDFB6F0B06F0B908605B4E2B2,0,The file is scored (0/42) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.inf,n/a,The file is scored (0/56) by virustotal,3,2FCBE69525A2B72890ECFE45D3F55B7E,A19E02721DA3E32824AA3130E739F84C3298E2E1,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.cmd,n/a,Not in VirusTotal,2,B68AE1D70BA7BAF1ABDD94275D020F9C,970F8BEF8658AC7003C9808C19C9A74CACC97D41,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.inf,n/a,Not in VirusTotal,2,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\xpg\windows xp service pack 2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,5DD626B9057EF111CF08C170E31C9A1A,ED19DF5C23D1D52B63345FDCEEBD6B9097B19696,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.cmd,n/a,Not in VirusTotal,2,B5DCD0CD0A6117F3F19AA1CE132053DD,FFEDCFAEEECB85B65E742EB02533D38599353097,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.inf,n/a,Not in VirusTotal,2,919DB9DE982A56649CC9D2BB0E33C69B,7C1FA3FD0BC81B3A65AD8F871F8189C23A22967B,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.cmd,n/a,The file is scored (0/42) by virustotal,3,E55EB5EFC68488926F9F9676FB1E46BA,FB5D6778EBD66C9FDFB6F0B06F0B908605B4E2B2,0,The file is scored (0/42) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.inf,n/a,The file is scored (0/56) by virustotal,3,2FCBE69525A2B72890ECFE45D3F55B7E,A19E02721DA3E32824AA3130E739F84C3298E2E1,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08r2\ws08r2 default security.cmd,n/a,The file is scored (0/48) by virustotal,3,F02F4A4090D412B83950E88A6E0C322C,D7F5D8D4C76B915B0302A9BCA5D3A5730D7476C4,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.cmd,n/a,Not in VirusTotal,2,B68AE1D70BA7BAF1ABDD94275D020F9C,970F8BEF8658AC7003C9808C19C9A74CACC97D41,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.inf,n/a,Not in VirusTotal,2,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\xpg\windows xp service pack 2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,5DD626B9057EF111CF08C170E31C9A1A,ED19DF5C23D1D52B63345FDCEEBD6B9097B19696,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.cmd,n/a,Not in VirusTotal,2,B5DCD0CD0A6117F3F19AA1CE132053DD,FFEDCFAEEECB85B65E742EB02533D38599353097,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.inf,n/a,Not in VirusTotal,2,919DB9DE982A56649CC9D2BB0E33C69B,7C1FA3FD0BC81B3A65AD8F871F8189C23A22967B,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.cmd,n/a,The file is scored (0/42) by virustotal,3,E55EB5EFC68488926F9F9676FB1E46BA,FB5D6778EBD66C9FDFB6F0B06F0B908605B4E2B2,0,The file is scored (0/42) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.inf,n/a,The file is scored (0/56) by virustotal,3,2FCBE69525A2B72890ECFE45D3F55B7E,A19E02721DA3E32824AA3130E739F84C3298E2E1,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08r2\ws08r2 default security.cmd,n/a,The file is scored (0/48) by virustotal,3,F02F4A4090D412B83950E88A6E0C322C,D7F5D8D4C76B915B0302A9BCA5D3A5730D7476C4,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08r2\ws08r2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,CA36F1EB8269D0CDA1E802CA8C8E9B7C,6680E75CFA859E2893D7A20B0FACF698F660219F,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.cmd,n/a,Not in VirusTotal,2,B68AE1D70BA7BAF1ABDD94275D020F9C,970F8BEF8658AC7003C9808C19C9A74CACC97D41,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.inf,n/a,Not in VirusTotal,2,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\xpg\windows xp service pack 2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,5DD626B9057EF111CF08C170E31C9A1A,ED19DF5C23D1D52B63345FDCEEBD6B9097B19696,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.cmd,n/a,Not in VirusTotal,2,B5DCD0CD0A6117F3F19AA1CE132053DD,FFEDCFAEEECB85B65E742EB02533D38599353097,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.inf,n/a,Not in VirusTotal,2,919DB9DE982A56649CC9D2BB0E33C69B,7C1FA3FD0BC81B3A65AD8F871F8189C23A22967B,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.cmd,n/a,The file is scored (0/42) by virustotal,3,E55EB5EFC68488926F9F9676FB1E46BA,FB5D6778EBD66C9FDFB6F0B06F0B908605B4E2B2,0,The file is scored (0/42) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.inf,n/a,The file is scored (0/56) by virustotal,3,2FCBE69525A2B72890ECFE45D3F55B7E,A19E02721DA3E32824AA3130E739F84C3298E2E1,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08r2\ws08r2 default security.cmd,n/a,The file is scored (0/48) by virustotal,3,F02F4A4090D412B83950E88A6E0C322C,D7F5D8D4C76B915B0302A9BCA5D3A5730D7476C4,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08r2\ws08r2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,CA36F1EB8269D0CDA1E802CA8C8E9B7C,6680E75CFA859E2893D7A20B0FACF698F660219F,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws12\ws12 default security.cmd,n/a,The file is scored (0/48) by virustotal,3,F02F4A4090D412B83950E88A6E0C322C,D7F5D8D4C76B915B0302A9BCA5D3A5730D7476C4,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.cmd,n/a,Not in VirusTotal,2,B68AE1D70BA7BAF1ABDD94275D020F9C,970F8BEF8658AC7003C9808C19C9A74CACC97D41,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.inf,n/a,Not in VirusTotal,2,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\xpg\windows xp service pack 2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,5DD626B9057EF111CF08C170E31C9A1A,ED19DF5C23D1D52B63345FDCEEBD6B9097B19696,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.cmd,n/a,Not in VirusTotal,2,B5DCD0CD0A6117F3F19AA1CE132053DD,FFEDCFAEEECB85B65E742EB02533D38599353097,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.inf,n/a,Not in VirusTotal,2,919DB9DE982A56649CC9D2BB0E33C69B,7C1FA3FD0BC81B3A65AD8F871F8189C23A22967B,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.cmd,n/a,The file is scored (0/42) by virustotal,3,E55EB5EFC68488926F9F9676FB1E46BA,FB5D6778EBD66C9FDFB6F0B06F0B908605B4E2B2,0,The file is scored (0/42) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.inf,n/a,The file is scored (0/56) by virustotal,3,2FCBE69525A2B72890ECFE45D3F55B7E,A19E02721DA3E32824AA3130E739F84C3298E2E1,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08r2\ws08r2 default security.cmd,n/a,The file is scored (0/48) by virustotal,3,F02F4A4090D412B83950E88A6E0C322C,D7F5D8D4C76B915B0302A9BCA5D3A5730D7476C4,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08r2\ws08r2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,CA36F1EB8269D0CDA1E802CA8C8E9B7C,6680E75CFA859E2893D7A20B0FACF698F660219F,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws12\ws12 default security.cmd,n/a,The file is scored (0/48) by virustotal,3,F02F4A4090D412B83950E88A6E0C322C,D7F5D8D4C76B915B0302A9BCA5D3A5730D7476C4,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws12\ws12 default security.inf,n/a,The file is scored (0/56) by virustotal,3,CA36F1EB8269D0CDA1E802CA8C8E9B7C,6680E75CFA859E2893D7A20B0FACF698F660219F,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\useraccountreviewweekly.bat,n/a,Not in VirusTotal,1,9892EBCFF15CDF06538EFBB814C73E80,14C263D147CD428A4D956B56024223D2D92294E0,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\useraccountreviewweekly.ps1,n/a,Not in VirusTotal,2,5EFD231EF0FCF40C1200B31F6C6E7248,0F594AD5FAC5BB52992403AE161DAA5901AECEC3,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\good output config files\users.dat,n/a,Not in VirusTotal,1,B784BAB4D8947BF2085333C725D04FA1,955E8314845DAE47B01612D19B039AFBAA05681B,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.cmd,n/a,The file is scored (0/48) by virustotal,3,DCB6E7997E4DAD3D923597491076B6A6,CDF1277156B312B6A69D635F14A9C8BB98F8ADD0,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\vsg\vista default security.inf,n/a,The file is scored (0/56) by virustotal,3,391894510B04FEA3B9D142265A61F90A,A77667EB12D47D3B2E6A56C5C4454B9FAF409C1A,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\vulscanresults.bat,n/a,Not in VirusTotal,1,C850E26D0E4D80931085293831E75771,3556C6CA90B93E38ACD87D2FDBD88129B83901BE,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingafter.bat,n/a,Not in VirusTotal,1,9E39D6611C8C284B197C3F4633770A0A,F55805C5989A2AB3B6A75F17D2EDDC2CF5EB8B92,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\weeklyitsecinfameetingprep.bat,n/a,Not in VirusTotal,1,DF4D8C1BD0B7337FA5DC90DF40D609DE,D42723E43D4BAA7C14442E7A97FC1DFB44DC46E2,0,The file is not an executable file,9
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\obj\debug\whitegloveconfigcheck.exe,executable,Not in VirusTotal,6,6FEB6ED7BC7EA5CF47D135D2D430153F,C403F6D28FAEE0C2565DC723EA4F7F8348BB27AA,0,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "whitegloveconfigcheck.pdb",9
+,,,,,,,The file does not reference a Certificate,7
+c:\scripts\pestudio\tmp\pulllocalsecpol\whitegloveconfigcheck\whitegloveconfigcheck\bin\debug\whitegloveconfigcheck.vshost.exe,executable,The file is scored (0/61) by virustotal,8,5D7CCE87C06EB3A74AD83820C9DCA101,FEB6324E03F4FD526ABB9279982F738841EE43CD,0,The file is scored (0/61) by virustotal,2
+,,,,,,,The file is a fake Microsoft executable,1
+,,,,,,,The file expects the .NET runtime,9
+,,,,,,,The file references blacklisted string(s),1
+,,,,,,,The file opts for Address Space Layout Randomization (ASLR),5
+,,,,,,,The manifest identity name is "MyApplication.app",7
+,,,,,,,The debug symbols file name is "vshost.pdb",9
+,,,,,,,The file is digitally signed,5
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.cmd,n/a,The file is scored (0/49) by virustotal,3,2E26BB971D886B17D20B8B6C913A0933,1D45A0DAFDB7DEC77080B4F2B847E485E534260C,0,The file is scored (0/49) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win7\win7 default security.inf,n/a,The file is scored (0/56) by virustotal,3,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.cmd,n/a,Not in VirusTotal,2,B68AE1D70BA7BAF1ABDD94275D020F9C,970F8BEF8658AC7003C9808C19C9A74CACC97D41,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\win8\win8 default security.inf,n/a,Not in VirusTotal,2,312B80AB52213C310BF7CCF6BB3E7E6E,1BBBD9E483813D9BED92199227220A7A40B6FE3D,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\xpg\windows xp service pack 2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,5DD626B9057EF111CF08C170E31C9A1A,ED19DF5C23D1D52B63345FDCEEBD6B9097B19696,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.cmd,n/a,Not in VirusTotal,2,B5DCD0CD0A6117F3F19AA1CE132053DD,FFEDCFAEEECB85B65E742EB02533D38599353097,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws03\ws03 default security.inf,n/a,Not in VirusTotal,2,919DB9DE982A56649CC9D2BB0E33C69B,7C1FA3FD0BC81B3A65AD8F871F8189C23A22967B,0,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.cmd,n/a,The file is scored (0/42) by virustotal,3,E55EB5EFC68488926F9F9676FB1E46BA,FB5D6778EBD66C9FDFB6F0B06F0B908605B4E2B2,0,The file is scored (0/42) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08\ws08 default security.inf,n/a,The file is scored (0/56) by virustotal,3,2FCBE69525A2B72890ECFE45D3F55B7E,A19E02721DA3E32824AA3130E739F84C3298E2E1,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08r2\ws08r2 default security.cmd,n/a,The file is scored (0/48) by virustotal,3,F02F4A4090D412B83950E88A6E0C322C,D7F5D8D4C76B915B0302A9BCA5D3A5730D7476C4,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws08r2\ws08r2 default security.inf,n/a,The file is scored (0/56) by virustotal,3,CA36F1EB8269D0CDA1E802CA8C8E9B7C,6680E75CFA859E2893D7A20B0FACF698F660219F,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws12\ws12 default security.cmd,n/a,The file is scored (0/48) by virustotal,3,F02F4A4090D412B83950E88A6E0C322C,D7F5D8D4C76B915B0302A9BCA5D3A5730D7476C4,0,The file is scored (0/48) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\ws12\ws12 default security.inf,n/a,The file is scored (0/56) by virustotal,3,CA36F1EB8269D0CDA1E802CA8C8E9B7C,6680E75CFA859E2893D7A20B0FACF698F660219F,0,The file is scored (0/56) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1
+c:\scripts\pestudio\tmp\pulllocalsecpol\dropper\security templates\xpg\xp default security.cmd,n/a,The file is scored (0/26) by virustotal,3,0E262F5A3782B609AA8D8F60E3D4B9AB,4FF9F41DBB02409CB6C46DAB5C7EBBD7B2223EC2,0,The file is scored (0/26) by virustotal,2
+,,,,,,,The file is not an executable file,9
+,,,,,,,The file references blacklisted string(s),1

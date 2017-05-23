@@ -24,6 +24,12 @@ namespace ReadPeStudioXML
 
         static void Main(string[] args)
         {
+
+            //TESTING VARI's
+            args = new string[2];
+            args[0]="-d";
+            args[1] = "C:\\Scripts\\pestudio\\xmloutput";
+
             ParseArgs(args);
             try
             {
@@ -51,7 +57,7 @@ namespace ReadPeStudioXML
                 }
                 else
                 {
-                    Error(" -Error- Your input sucks error");
+                    Error(" -Error- Your input sucks error. File Does not exist or is not xml.\n"+InputFile);
                 }
             }
             catch (Exception e)
@@ -184,7 +190,6 @@ namespace ReadPeStudioXML
                         }
                         break;
                 }
-                Console.WriteLine("File: " + Fileioc.Filename + "\n   VT: " + Fileioc.VTresults + "\n   Sev: " + sev);
             }
             reader.Close();
             MachineFileList.Add(Fileioc);
@@ -192,6 +197,7 @@ namespace ReadPeStudioXML
             {
                 File.Delete(InputFile);
             }
+            Console.WriteLine("\nFile: " + Fileioc.Filename + "\n   VT: " + Fileioc.VTresults + "\n   Sev: " + sev);
         }
 
         static void WriteCSV()
@@ -264,6 +270,7 @@ namespace ReadPeStudioXML
                         }
                         ++RecordCounter;
                     }
+                    Writer.Close();
                 }
             }
         }
@@ -281,6 +288,7 @@ namespace ReadPeStudioXML
                         {
                             Writer.WriteLine(MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).VTresults);
                         }
+                        Writer.Close();
                     }
                 }
                 else
@@ -293,6 +301,7 @@ namespace ReadPeStudioXML
                         {
                             Writer.WriteLine(MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).VTresults);
                         }
+                        Writer.Close();
                     }
                 }
             }

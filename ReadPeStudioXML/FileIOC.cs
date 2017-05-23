@@ -9,7 +9,7 @@ namespace ReadPeStudioXML
     class FileIOC
     {        
         public List<IOC> IOC = new List<IOC>();
-
+        private string VT = "";
         public string Filename { get; set; }
         public string SHA1 { get; set; }
         public string MD5 { get; set; }
@@ -18,18 +18,18 @@ namespace ReadPeStudioXML
         {
             get
             {
-                if (string.IsNullOrEmpty(VTresults))
+                if (string.IsNullOrEmpty(VT))
                 {
                     return "Not in VirusTotal";
                 }
                 else
                 {
-                    return VTresults;
+                    return VT;
                 }
             }
             set
             {
-                VTresults = value;
+                VT = value;
             }
         }
 
@@ -60,7 +60,7 @@ namespace ReadPeStudioXML
             IOC.Add(value);
             if (text.ToLower().Contains("virustotal"))
             {
-                VTresults = text;
+                VT = text;
             }
         }
     }
