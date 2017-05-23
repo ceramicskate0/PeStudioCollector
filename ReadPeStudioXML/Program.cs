@@ -20,9 +20,16 @@ namespace ReadPeStudioXML
         public static bool CleanUpXMLs = true;
         public static string MachineName = "";
         public static string OutputFile = MachineName + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Year + "_Scan_Summary.csv";
+        public static string VTOutputFile = MachineName + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Year + "_VirusTotal_Summary.csv";
 
         static void Main(string[] args)
         {
+
+            //TESTING VARI's
+            args = new string[2];
+            args[0]="-d";
+            args[1] = "C:\\Scripts\\pestudio\\xmloutput";
+
             ParseArgs(args);
             try
             {
@@ -37,6 +44,7 @@ namespace ReadPeStudioXML
                         CountLineInFile(OutputFile);
                         ReadandParseXML();
                         WriteCSV();
+                        WriteVirusTotalFile();
                         }
                     }
                 }
@@ -45,6 +53,7 @@ namespace ReadPeStudioXML
                     CountLineInFile(OutputFile);
                     ReadandParseXML();
                     WriteCSV();
+                    WriteVirusTotalFile();
                 }
                 else
                 {
@@ -164,17 +173,15 @@ namespace ReadPeStudioXML
                             ioc=reader.Value;
                         }
                         if (string.IsNullOrEmpty(Fileioc.SHA1) && CurrentElement.ToLower()=="sha1")
-                            Fileioc.SHA1 = reader.Value;;
+                            Fileioc.SHA1 = reader.Value;
                         if (string.IsNullOrEmpty(Fileioc.MD5) && CurrentElement.ToLower() == "md5")
-                            Fileioc.MD5 = reader.Value;;
+                            Fileioc.MD5 = reader.Value;
                         if (string.IsNullOrEmpty(Fileioc.Type) && CurrentElement.ToLower() == "type")
-                            Fileioc.Type = reader.Value;;
+                            Fileioc.Type = reader.Value;
+                        /*if (string.IsNullOrEmpty(Fileioc.VTresults) && CurrentElement.ToLower() == "virustotal")
+                            Fileioc.VTresults = reader.Value;*/
                         break;
                     case XmlNodeType.EndElement: //Display the end of the element
-                        if (reader.Name == "indicators")
-                        {
-                            Console.Write(reader.Name);
-                        }
                         if (sev > 0 && string.IsNullOrEmpty(ioc)==false)
                         {
                         Fileioc.AddIOC(sev, ioc);
@@ -183,7 +190,9 @@ namespace ReadPeStudioXML
                         }
                         break;
                 }
+                Console.WriteLine("File: " + Fileioc.Filename + "\n   VT: " + Fileioc.VTresults + "\n   Sev: " + sev);
             }
+            reader.Close();
             MachineFileList.Add(Fileioc);
             if (CleanUpXMLs)
             {
@@ -262,6 +271,40 @@ namespace ReadPeStudioXML
                         ++RecordCounter;
                     }
                 }
+            }
+        }
+
+        static void WriteVirusTotalFile()
+        {
+            try
+            {
+                if (File.Exists(VTOutputFile) == false)
+                {
+                    File.Create(VTOutputFile).Close();
+                    using (StreamWriter Writer = File.AppendText(VTOutputFile))
+                    {
+                        for (int x = 0; x < MachineFileList.Count; ++x)
+                        {
+                            Writer.WriteLine(MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).VTresults);
+                        }
+                    }
+                }
+                else
+                {
+                    File.Delete(VTOutputFile);
+                    File.Create(VTOutputFile).Close();
+                    using (StreamWriter Writer = File.AppendText(VTOutputFile))
+                    {
+                        for (int x = 0; x < MachineFileList.Count; ++x)
+                        {
+                            Writer.WriteLine(MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).VTresults);
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Error(" -ERROR- " + e.Message.ToString());
             }
         }
 

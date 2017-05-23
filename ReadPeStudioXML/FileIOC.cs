@@ -14,7 +14,25 @@ namespace ReadPeStudioXML
         public string SHA1 { get; set; }
         public string MD5 { get; set; }
         public string Type { get; set; }
-        public string VTresults { get; set; }
+        public string VTresults
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(VTresults))
+                {
+                    return "Not in VirusTotal";
+                }
+                else
+                {
+                    return VTresults;
+                }
+            }
+            set
+            {
+                VTresults = value;
+            }
+        }
+
         private int totalSeverity;
 
         public int TotalSeverity

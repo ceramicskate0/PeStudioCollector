@@ -199,7 +199,7 @@ namespace MassPeStudioFileScan
             }
             Console.Clear();
             Console.WriteLine("Cleaning up working dir.\n" + FileCopyLoc);
-            RunCMD("mkdir empty && robocopy empty " + FileCopyLoc + " //s //mir");
+             RunCMD("mkdir empty && robocopy empty "+ FileCopyLoc +" /s /mir");
         }
 
         static void DisplayAdminMenu()
@@ -582,7 +582,6 @@ Mass Pestudio File Scan Help Menu:
             //    }
             //}
         }
-
         //TODO
         /*public static void RunPowerShell(string Cmd)
         {
