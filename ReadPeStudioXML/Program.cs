@@ -25,11 +25,6 @@ namespace ReadPeStudioXML
         static void Main(string[] args)
         {
 
-            //TESTING VARI's
-            args = new string[2];
-            args[0]="-d";
-            args[1] = "C:\\Scripts\\pestudio\\xmloutput";
-
             ParseArgs(args);
             try
             {
