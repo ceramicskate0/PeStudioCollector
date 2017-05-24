@@ -39,7 +39,6 @@ namespace ReadPeStudioXML
                         CountLineInFile(OutputFile);
                         ReadandParseXML();
                         WriteCSV();
-                        WriteVirusTotalFile();
                         }
                     }
                 }
@@ -48,16 +47,16 @@ namespace ReadPeStudioXML
                     CountLineInFile(OutputFile);
                     ReadandParseXML();
                     WriteCSV();
-                    WriteVirusTotalFile();
                 }
                 else
                 {
                     Error(" -Error- Your input sucks error. File Does not exist or is not xml.\n"+InputFile);
                 }
+                WriteVirusTotalFile();
             }
             catch (Exception e)
             {
-                Error(" -Error- "+e.Message.ToString());
+                Error(" -Error- Main error. "+e.Message.ToString());
             }
         }
 
@@ -136,8 +135,9 @@ namespace ReadPeStudioXML
                     Environment.Exit(0);
                 }
             }
-            catch
+            catch (Exception e)
             {
+                Error("ERROR "+e.Message.ToString());
                 DisplayHelp();
                 Environment.Exit(0);
             }
@@ -197,15 +197,15 @@ namespace ReadPeStudioXML
 
         static void WriteCSV()
         {
-            if (CountLineInFile(OutputFile) > ModVari)
-            {
-                Error("\nWARNING Your file ("+OutputFile+")may exceed Excels max limit for performance. Ill break it up for you to be sure you dont crash Excel.");
-                WriteFile(0, OutputFile);
-            }
-            else
-            {
-                WriteFile(0, OutputFile);
-            }
+                if (CountLineInFile(OutputFile) > ModVari)
+                {
+                    Error("\nWARNING Your file (" + OutputFile + ")may exceed Excels max limit for performance. Ill break it up for you to be sure we dont crash Excel.");
+                    WriteFile(0, OutputFile);
+                }
+                else
+                {
+                    WriteFile(0, OutputFile);
+                }
         }
 
         static void WriteFile(int CurrentCount,string outputFile)
@@ -213,61 +213,57 @@ namespace ReadPeStudioXML
             string FileN = "";
             string PathN="";
             double t = RecordCounter % ModVari;
-            if ((File.Exists(outputFile) && CountLineInFile(outputFile) > ModVari && RecordCounter != 0))//make new file this one is full
-            {
-                FirstRun = false;
-                ++FileCount;
-                FileN = Path.GetFileNameWithoutExtension(outputFile);
-                PathN = Path.GetFullPath(outputFile).Replace("\\" + FileN + ".csv", "");
-                OutputFile = PathN + "\\" + FileN + FileCount.ToString() + ".csv";
-                while (RecordCounter>ModVari)
+                if ((File.Exists(outputFile) && CountLineInFile(outputFile) > ModVari && RecordCounter != 0) && FirstRun)//make new file this one is full
                 {
-                    if (File.Exists(OutputFile))
-                    { 
+                    FirstRun = false;
+                    ++FileCount;
                     FileN = Path.GetFileNameWithoutExtension(outputFile);
                     PathN = Path.GetFullPath(outputFile).Replace("\\" + FileN + ".csv", "");
                     OutputFile = PathN + "\\" + FileN + FileCount.ToString() + ".csv";
-                    }
-                    CountLineInFile(OutputFile);
-                    ++FileCount;
-                }
-                WriteFile(RecordCounter = CountLineInFile(OutputFile), OutputFile);
-            }
-            else
-            {
-                using (StreamWriter Writer = File.AppendText(outputFile))
-                {
-                    if ( FirstRun ==true)
+                    while (RecordCounter > ModVari)
                     {
-                        RecordCounter = 0;
-                    }
-                    for (int x = 0; x < MachineFileList.Count; ++x)
-                    {
-                        if (RecordCounter % ModVari != 0 || RecordCounter == 0)
+                        if (File.Exists(OutputFile))
                         {
-                            Writer.WriteLine(MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).Type + "," + MachineFileList.ElementAt(x).VTresults + "," + MachineFileList.ElementAt(x).Count + "," + MachineFileList.ElementAt(x).MD5 + "," + MachineFileList.ElementAt(x).SHA1 + "," + MachineFileList.ElementAt(x).TotalSeverity.ToString() + "," + MachineFileList.ElementAt(x).IOC.ElementAt(0).text + "," + MachineFileList.ElementAt(x).IOC.ElementAt(0).num.ToString());
-                            for (int y = 1; y < MachineFileList.ElementAt(x).IOC.Count; ++y)
-                            {
-                                Writer.WriteLine("," + "," + "," + "," + "," + "," + "," + MachineFileList.ElementAt(x).IOC.ElementAt(y).text + "," + MachineFileList.ElementAt(x).IOC.ElementAt(y).num.ToString());
-                            }
-                            FirstRun = false;
-                        }
-                        else
-                        {
-                            FirstRun = false;
                             FileN = Path.GetFileNameWithoutExtension(outputFile);
                             PathN = Path.GetFullPath(outputFile).Replace("\\" + FileN + ".csv", "");
-                            File.Create(FileN + FileCount.ToString() + ".csv");
                             OutputFile = PathN + "\\" + FileN + FileCount.ToString() + ".csv";
-                            ++FileCount;
-                            WriteFile(RecordCounter = CountLineInFile(outputFile), OutputFile);
-                            x = MachineFileList.Count + 1;
                         }
-                        ++RecordCounter;
+                        CountLineInFile(OutputFile);
+                        ++FileCount;
                     }
-                    Writer.Close();
+                    WriteFile(RecordCounter = CountLineInFile(OutputFile), OutputFile);
                 }
-            }
+                else//write to file
+                {
+                        if (FirstRun == true)
+                        {
+                            RecordCounter = 0;
+                        }
+                        for (int x = 0; x < MachineFileList.Count; ++x)
+                        {
+                            if (RecordCounter % ModVari != 0 || RecordCounter == 0)
+                            {
+                                File.AppendAllText(OutputFile,MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).Type + "," + MachineFileList.ElementAt(x).VTresults + "," + MachineFileList.ElementAt(x).Count + "," + MachineFileList.ElementAt(x).MD5 + "," + MachineFileList.ElementAt(x).SHA1 + "," + MachineFileList.ElementAt(x).TotalSeverity.ToString() + "," + MachineFileList.ElementAt(x).IOC.ElementAt(0).text + "," + MachineFileList.ElementAt(x).IOC.ElementAt(0).num.ToString()+"\n");
+                                for (int y = 1; y < MachineFileList.ElementAt(x).IOC.Count; ++y)
+                                {
+                                    File.AppendAllText(OutputFile, "," + "," + "," + "," + "," + "," + "," + MachineFileList.ElementAt(x).IOC.ElementAt(y).text + "," + MachineFileList.ElementAt(x).IOC.ElementAt(y).num.ToString() + "\n");
+                                }
+                                FirstRun = false;
+                            }
+                            else
+                            {
+                                FirstRun = false;
+                                FileN = Path.GetFileNameWithoutExtension(outputFile);
+                                PathN = Path.GetFullPath(outputFile).Replace("\\" + FileN + ".csv", "");
+                                File.Create(FileN + FileCount.ToString() + ".csv").Close();
+                                OutputFile = PathN + "\\" + FileN + FileCount.ToString() + ".csv";
+                                ++FileCount;
+                                WriteFile(RecordCounter = CountLineInFile(outputFile), OutputFile);
+                                x = MachineFileList.Count + 1;
+                            }
+                            ++RecordCounter;
+                        }
+                }
         }
 
         static void WriteVirusTotalFile()
@@ -276,33 +272,23 @@ namespace ReadPeStudioXML
             {
                 if (File.Exists(VTOutputFile) == false)
                 {
-                    File.Create(VTOutputFile).Close();
-                    using (StreamWriter Writer = File.AppendText(VTOutputFile))
-                    {
                         for (int x = 0; x < MachineFileList.Count; ++x)
                         {
-                            Writer.WriteLine(MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).VTresults);
+                            File.AppendAllText(VTOutputFile, MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).VTresults + "\n");
                         }
-                        Writer.Close();
-                    }
                 }
                 else
                 {
                     File.Delete(VTOutputFile);
-                    File.Create(VTOutputFile).Close();
-                    using (StreamWriter Writer = File.AppendText(VTOutputFile))
-                    {
                         for (int x = 0; x < MachineFileList.Count; ++x)
                         {
-                            Writer.WriteLine(MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).VTresults);
+                            File.AppendAllText(VTOutputFile, MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).VTresults + "\n");
                         }
-                        Writer.Close();
-                    }
                 }
             }
             catch (Exception e)
             {
-                Error(" -ERROR- " + e.Message.ToString());
+                Error(" -ERROR- Writing to VT summary file. " + e.Message.ToString());
             }
         }
 

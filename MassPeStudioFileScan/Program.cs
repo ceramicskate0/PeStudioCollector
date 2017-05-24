@@ -158,6 +158,7 @@ namespace MassPeStudioFileScan
             Console.WriteLine("\n1) Input file path for single file to scan or Dir path to scan (Recusive all sub Dirs)(LOCAL Machine):");
             Console.WriteLine("\n2) Input file path for single file to scan or Dir path to scan (Recusive all sub Dirs)(REMOTE Machine):");
             Console.WriteLine("\n3) Clean up Files moved and Ooops file path to long errors to delete.");
+            Console.WriteLine("\n4) Run just Pestudio XML Parser");
             Console.WriteLine("\n99) EXIT App");
             Console.Write(">");
             int opt = 0;
@@ -191,6 +192,10 @@ namespace MassPeStudioFileScan
                     break;
                 case 3:
                     MainMenuOption3();
+                    DisplayMainMenu();
+                    break;
+                case 4:
+                    MainMenuOption4();
                     DisplayMainMenu();
                     break;
                 case 99:
@@ -408,6 +413,14 @@ Mass Pestudio File Scan Help Menu:
             }
         }
 
+        static void MainMenuOption4()
+        {
+            Console.Clear();
+            Console.WriteLine("Enter Dir for XML Parser to read xml files from:");
+            string userInput=Console.ReadLine();
+            RunReadPeStudioXML(userInput);
+
+        }
         static void ProcessDirectory(string targetDirectory, string OrginalPath)
         {
             // Process the list of files found in the directory.
@@ -556,15 +569,21 @@ Mass Pestudio File Scan Help Menu:
             }
         }
 
-        static void RunReadPeStudioXML()
+        static void RunReadPeStudioXML(string inputedDir="")
         {
+            if (string.IsNullOrEmpty(inputedDir)==false)
+            {
+                outputLocation = inputedDir;
+            }
             bool started = false;
             var process = new System.Diagnostics.Process();
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = "/C ReadPeStudioXML.exe -d " + outputLocation;
-            startInfo.CreateNoWindow = true;
+            startInfo.WorkingDirectory = Directory.GetCurrentDirectory();
+            startInfo.FileName = "powershell.exe";
+            startInfo.Arguments = "cd \"" + startInfo.WorkingDirectory + "\" ; .\\ReadPeStudioXML.exe -d " + outputLocation;
+            startInfo.CreateNoWindow = false;
+            startInfo.UseShellExecute = false;
             process.StartInfo = startInfo;
             started = process.Start();
             var procId = process.Id;
