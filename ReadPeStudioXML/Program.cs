@@ -59,22 +59,6 @@ namespace ReadPeStudioXML
                 Error(" -Error- Main error. "+e.Message.ToString());
             }
         }
-
-        static int CountLineInFile(string outfile)
-        {
-            if (File.Exists(outfile))
-        {
-            RecordCounter = File.ReadLines(outfile).Count();
-            return RecordCounter = File.ReadLines(outfile).Count();
-        }
-        else
-        {
-            File.Create(outfile).Close();
-            RecordCounter = File.ReadLines(outfile).Count();
-            return RecordCounter = File.ReadLines(outfile).Count();
-        }
-        }
-
         static void ParseArgs(string[] argz)
         {
             try
@@ -109,9 +93,9 @@ namespace ReadPeStudioXML
                                 Console.WriteLine("Enter PeStudio XML file to read:");
                                 Console.Write(">");
                                 InputFile = Console.ReadLine();
-                                if (File.Exists(InputFile) && Path.GetExtension(InputFile)==".xml")
+                                if (File.Exists(InputFile) && Path.GetExtension(InputFile) == ".xml")
                                 {
-
+                                    InputFile = argz[x + 1];
                                 }
                                 else
                                 {
@@ -137,10 +121,23 @@ namespace ReadPeStudioXML
             }
             catch (Exception e)
             {
-                Error("ERROR "+e.Message.ToString());
+                Error("ERROR " + e.Message.ToString());
                 DisplayHelp();
                 Environment.Exit(0);
             }
+        }
+
+        static int CountLineInFile(string outfile)
+        {
+            if (File.Exists(outfile))
+        {
+            return RecordCounter = File.ReadLines(outfile).Count();
+        }
+        else
+        {
+            File.Create(outfile).Close();
+            return RecordCounter = File.ReadLines(outfile).Count();
+        }
         }
 
         static void ReadandParseXML()
@@ -231,6 +228,7 @@ namespace ReadPeStudioXML
                         CountLineInFile(OutputFile);
                         ++FileCount;
                     }
+                    
                     WriteFile(RecordCounter = CountLineInFile(OutputFile), OutputFile);
                 }
                 else//write to file
@@ -241,27 +239,13 @@ namespace ReadPeStudioXML
                         }
                         for (int x = 0; x < MachineFileList.Count; ++x)
                         {
-                            if (RecordCounter % ModVari != 0 || RecordCounter == 0)
-                            {
                                 File.AppendAllText(OutputFile,MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).Type + "," + MachineFileList.ElementAt(x).VTresults + "," + MachineFileList.ElementAt(x).Count + "," + MachineFileList.ElementAt(x).MD5 + "," + MachineFileList.ElementAt(x).SHA1 + "," + MachineFileList.ElementAt(x).TotalSeverity.ToString() + "," + MachineFileList.ElementAt(x).IOC.ElementAt(0).text + "," + MachineFileList.ElementAt(x).IOC.ElementAt(0).num.ToString()+"\n");
                                 for (int y = 1; y < MachineFileList.ElementAt(x).IOC.Count; ++y)
                                 {
                                     File.AppendAllText(OutputFile, "," + "," + "," + "," + "," + "," + "," + MachineFileList.ElementAt(x).IOC.ElementAt(y).text + "," + MachineFileList.ElementAt(x).IOC.ElementAt(y).num.ToString() + "\n");
                                 }
                                 FirstRun = false;
-                            }
-                            else
-                            {
-                                FirstRun = false;
-                                FileN = Path.GetFileNameWithoutExtension(outputFile);
-                                PathN = Path.GetFullPath(outputFile).Replace("\\" + FileN + ".csv", "");
-                                File.Create(FileN + FileCount.ToString() + ".csv").Close();
-                                OutputFile = PathN + "\\" + FileN + FileCount.ToString() + ".csv";
-                                ++FileCount;
-                                WriteFile(RecordCounter = CountLineInFile(outputFile), OutputFile);
-                                x = MachineFileList.Count + 1;
-                            }
-                            ++RecordCounter;
+                                ++RecordCounter;
                         }
                 }
         }
@@ -319,7 +303,7 @@ Help menu for Pestudio XML parser:
             Output file drops in current working dir for app.
             
             Usage:
-            CMD line usage: ReadPeStudioXML -f {File path}.xml   
+            CMD line usage: ReadPeStudioXML -D {File path}.xml   
             Interactive Usage: ReadPeStudioXML -i 
             App generates 1 output file per scan and will overwrite.
             ");

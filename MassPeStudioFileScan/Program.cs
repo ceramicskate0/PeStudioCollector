@@ -575,19 +575,26 @@ Mass Pestudio File Scan Help Menu:
             {
                 outputLocation = inputedDir;
             }
-            bool started = false;
-            var process = new System.Diagnostics.Process();
-            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
-            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            startInfo.WorkingDirectory = Directory.GetCurrentDirectory();
-            startInfo.FileName = "powershell.exe";
-            startInfo.Arguments = "cd \"" + startInfo.WorkingDirectory + "\" ; .\\ReadPeStudioXML.exe -d " + outputLocation;
-            startInfo.CreateNoWindow = false;
-            startInfo.UseShellExecute = false;
-            process.StartInfo = startInfo;
-            started = process.Start();
-            var procId = process.Id;
-            Console.WriteLine("\nRunning ReadPeStudioXML PID: " + procId);
+            if (Directory.Exists(outputLocation))
+            {
+                bool started = false;
+                var process = new System.Diagnostics.Process();
+                System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+                startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+                startInfo.WorkingDirectory = Directory.GetCurrentDirectory();
+                startInfo.FileName = "ReadPeStudioXML.exe";
+                startInfo.Arguments = "-d " + outputLocation;
+                startInfo.CreateNoWindow = true;
+                startInfo.UseShellExecute = false;
+                process.StartInfo = startInfo;              
+                started = process.Start();
+                var procId = process.Id;
+                Console.WriteLine("\nRunning ReadPeStudioXML PID: " + procId);
+            }
+            else
+            {
+                Error("-ERROR- Path to dir to scan is not valid.");
+            }
             //Stopwatch timer = new Stopwatch();
             //timer.Start();
             //while (Process.GetProcesses().Any(x => x.Id == Convert.ToInt32(procId)) != false)

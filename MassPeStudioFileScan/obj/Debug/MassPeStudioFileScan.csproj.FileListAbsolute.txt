@@ -9,3 +9,4 @@ c:\users\adminpg\documents\visual studio 2012\Projects\MassPeStudioFileScan\Mass
 \\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\MassPeStudioFileScan\bin\Debug\MassPeStudioFileScan.pdb
 \\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\MassPeStudioFileScan\obj\Debug\MassPeStudioFileScan.exe
 \\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\MassPeStudioFileScan\obj\Debug\MassPeStudioFileScan.pdb
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\MassPeStudioFileScan\obj\Debug\MassPeStudioFileScan.csprojResolveAssemblyReference.cache
