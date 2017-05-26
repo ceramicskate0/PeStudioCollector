@@ -584,12 +584,19 @@ Mass Pestudio File Scan Help Menu:
                 startInfo.WorkingDirectory = Directory.GetCurrentDirectory();
                 startInfo.FileName = "ReadPeStudioXML.exe";
                 startInfo.Arguments = "-d " + outputLocation;
-                startInfo.CreateNoWindow = true;
+                startInfo.RedirectStandardOutput = true;
                 startInfo.UseShellExecute = false;
-                process.StartInfo = startInfo;              
+                startInfo.CreateNoWindow = true;
+                process.StartInfo = startInfo;
                 started = process.Start();
                 var procId = process.Id;
+                Console.Clear();
                 Console.WriteLine("\nRunning ReadPeStudioXML PID: " + procId);
+                StreamReader reader = process.StandardOutput;
+                string output = reader.ReadToEnd();
+                Console.WriteLine("\n\nProcess output for XML reader app below:\n");
+                Console.WriteLine(output);
+                Console.WriteLine("Process output for XML reader comeplete.\n\n");
             }
             else
             {

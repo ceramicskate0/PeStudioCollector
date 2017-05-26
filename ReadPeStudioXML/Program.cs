@@ -24,7 +24,7 @@ namespace ReadPeStudioXML
 
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Starting Pestudio XML reading App");
             ParseArgs(args);
             try
             {
