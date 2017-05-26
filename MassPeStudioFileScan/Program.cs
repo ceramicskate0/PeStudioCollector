@@ -371,7 +371,7 @@ Mass Pestudio File Scan Help Menu:
             Console.Clear();
             try
             {
-                if (File.Exists(FromPath) || Directory.Exists(FromPath))
+                if (File.Exists(Frompath) || Directory.Exists(Frompath))
                 {
                     RunCMDasDiffrentUser("robocopy " + Frompath + " " + FileCopyLoc + " " + FileTypesToMove + " /XF pagefile.sys hiberfil.sys /XJ /max:" + RoboCopyByteLimit + " /R:0 /XJ /XO /S /ETA");
                     ProcessDirectory(FileCopyLoc, Frompath);
@@ -421,6 +421,7 @@ Mass Pestudio File Scan Help Menu:
             RunReadPeStudioXML(userInput);
 
         }
+
         static void ProcessDirectory(string targetDirectory, string OrginalPath)
         {
             // Process the list of files found in the directory.
@@ -615,16 +616,5 @@ Mass Pestudio File Scan Help Menu:
             //    }
             //}
         }
-        //TODO
-        /*public static void RunPowerShell(string Cmd)
-        {
-            System.Diagnostics.Process process = new System.Diagnostics.Process();
-            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
-            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            startInfo.FileName = "Powershell.exe";
-            startInfo.Arguments = "" + Cmd;
-            process.StartInfo = startInfo;
-            process.Start();
-        }*/
     }
 }
