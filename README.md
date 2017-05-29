@@ -1,5 +1,12 @@
 # PeStudioCollector
-PeStudioCollector to do static analysis for an entire machine.
+PeStudioCollector to do static analysis for an file system of files of type you specify.
 
+# Current Release
+Alpha (Some corner case bugs still here)
 
-Pre Alpha still
+# What is it?
+This application is for collecting all the files from a file system on a machine remote or local to search for indicators via the wonderful PeStudio app. It will need lots of space (as it copies them) and if tunable.
+
+# Support
+Windows only
+
