@@ -34,15 +34,6 @@ namespace MassPeStudioFileScan
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("\n\n--ALL DONE SCANNING--");
                 Console.ForegroundColor = ConsoleColor.White;
-
-                //at this point all files are scaned and ready to have the XML read
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("\n\n--Starting to parse XML files from PeStudio--");
-                Console.ForegroundColor = ConsoleColor.White;
-                RunReadPeStudioXML();
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("\n\n--ALL DONE--");
-                Console.ForegroundColor = ConsoleColor.White;
             }
             else//cmd line start
            {
@@ -51,16 +42,15 @@ namespace MassPeStudioFileScan
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("\n\n--ALL DONE SCANNING--");
                 Console.ForegroundColor = ConsoleColor.White;
-
-                //at this point all files are scaned and ready to have the XML read
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("\n\n--Starting to parse XML files from PeStudio--");
-                Console.ForegroundColor = ConsoleColor.White;
-                RunReadPeStudioXML();
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("\n\n--ALL DONE--");
-                Console.ForegroundColor = ConsoleColor.White;
             }
+            //at this point all files are scaned and ready to have the XML read
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("\n\n--Starting to parse XML files from PeStudio--");
+            Console.ForegroundColor = ConsoleColor.White;
+            RunReadPeStudioXML();
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("\n\n--ALL DONE--");
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
         static void ParseExeCmdArgs(string[] argz)

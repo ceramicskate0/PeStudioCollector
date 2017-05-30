@@ -18,10 +18,11 @@ namespace ReadPeStudioXML
         public static int FileCount=1;
         public static bool FirstRun = true;
         public static bool CleanUpXMLs = true;
+        public static bool JustPrintVTResults = false;
         public static string MachineName = "";
         public static string OutputFile = MachineName + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Year + "_Scan_Summary.csv";
         public static string VTOutputFile = MachineName + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Year + "_VirusTotal_Summary.csv";
-
+        public static int MachineFileListCount = 0;
         static void Main(string[] args)
         {
             Console.WriteLine("Starting Pestudio XML reading App");
@@ -30,23 +31,27 @@ namespace ReadPeStudioXML
             {
                 if (Directory.Exists(InputDir))
                 {
-                    string[] fileEntries = Directory.GetFiles(InputDir);
-                    foreach (string fileName in fileEntries)
+                    string[] fileEntries = Directory.GetFiles(InputDir).Distinct().ToArray();
+                    foreach (string fileName in fileEntries.Distinct())
                     {
                         InputFile = fileName;
-                        if (File.Exists(InputFile) && Path.GetExtension(InputFile)==".xml")
+                        if (File.Exists(fileName) && Path.GetExtension(fileName) == ".xml")
                         {
-                        CountLineInFile(OutputFile);
                         ReadandParseXML();
-                        WriteCSV();
+                        if (JustPrintVTResults==false)
+                        {
+                            WriteOutputToCSV();
+                        }
                         }
                     }
                 }
-                if (File.Exists(InputFile) && Path.GetExtension(InputFile) == ".xml")
+                else if (File.Exists(InputFile) && Path.GetExtension(InputFile) == ".xml")
                 {
-                    CountLineInFile(OutputFile);
                     ReadandParseXML();
-                    WriteCSV();
+                    if (JustPrintVTResults == false)
+                    {
+                        WriteOutputToCSV();
+                    }
                 }
                 else
                 {
@@ -103,6 +108,9 @@ namespace ReadPeStudioXML
                                     Console.ReadKey();
                                     Environment.Exit(1);
                                 }
+                                break;
+                            case "-vt":
+                                JustPrintVTResults = true;
                                 break;
                             case "-h":
                                 DisplayHelp();
@@ -170,8 +178,6 @@ namespace ReadPeStudioXML
                             Fileioc.MD5 = reader.Value;
                         if (string.IsNullOrEmpty(Fileioc.Type) && CurrentElement.ToLower() == "type")
                             Fileioc.Type = reader.Value;
-                        /*if (string.IsNullOrEmpty(Fileioc.VTresults) && CurrentElement.ToLower() == "virustotal")
-                            Fileioc.VTresults = reader.Value;*/
                         break;
                     case XmlNodeType.EndElement: //Display the end of the element
                         if (sev > 0 && string.IsNullOrEmpty(ioc)==false)
@@ -192,64 +198,59 @@ namespace ReadPeStudioXML
             Console.WriteLine("\nFile: " + Fileioc.Filename + "\n   VT: " + Fileioc.VTresults + "\n   Sev: " + sev);
         }
 
-        static void WriteCSV()
+        static void WriteOutputToCSV()
         {
-                if (CountLineInFile(OutputFile) > ModVari)
-                {
-                    Error("\nWARNING Your file (" + OutputFile + ")may exceed Excels max limit for performance. Ill break it up for you to be sure we dont crash Excel.");
-                    WriteFile(0, OutputFile);
-                }
-                else
-                {
-                    WriteFile(0, OutputFile);
-                }
-        }
+            if (File.Exists(OutputFile) == false)
+            {
+                File.Create(OutputFile).Close();
+            }
 
-        static void WriteFile(int CurrentCount,string outputFile)
-        {
-            string FileN = "";
-            string PathN="";
-            double t = RecordCounter % ModVari;
-                if ((File.Exists(outputFile) && CountLineInFile(outputFile) > ModVari && RecordCounter != 0) && FirstRun)//make new file this one is full
+            if (CountLineInFile(OutputFile) > ModVari)
+            {
+                Error("\n--WARNING-- Your file (" + OutputFile + ")may exceed Excels max limit for performance. Ill break it up for you to be sure we dont crash Excel.");
+                string FileN = "";
+                string PathN = "";
+                if ((CountLineInFile(OutputFile) > ModVari && RecordCounter != 0))//make new file this one is full
                 {
-                    FirstRun = false;
                     ++FileCount;
-                    FileN = Path.GetFileNameWithoutExtension(outputFile);
-                    PathN = Path.GetFullPath(outputFile).Replace("\\" + FileN + ".csv", "");
+                    FileN = Path.GetFileNameWithoutExtension(OutputFile);
+                    PathN = Path.GetFullPath(OutputFile).Replace("\\" + FileN + ".csv", "");
                     OutputFile = PathN + "\\" + FileN + FileCount.ToString() + ".csv";
                     while (RecordCounter > ModVari)
                     {
                         if (File.Exists(OutputFile))
                         {
-                            FileN = Path.GetFileNameWithoutExtension(outputFile);
-                            PathN = Path.GetFullPath(outputFile).Replace("\\" + FileN + ".csv", "");
+                            FileN = Path.GetFileNameWithoutExtension(OutputFile);
+                            PathN = Path.GetFullPath(OutputFile).Replace("\\" + FileN + ".csv", "");
                             OutputFile = PathN + "\\" + FileN + FileCount.ToString() + ".csv";
                         }
                         CountLineInFile(OutputFile);
                         ++FileCount;
                     }
-                    
-                    WriteFile(RecordCounter = CountLineInFile(OutputFile), OutputFile);
                 }
-                else//write to file
-                {
-                        if (FirstRun == true)
-                        {
-                            RecordCounter = 0;
-                        }
-                        for (int x = 0; x < MachineFileList.Count; ++x)
-                        {
-                                File.AppendAllText(OutputFile,MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).Type + "," + MachineFileList.ElementAt(x).VTresults + "," + MachineFileList.ElementAt(x).Count + "," + MachineFileList.ElementAt(x).MD5 + "," + MachineFileList.ElementAt(x).SHA1 + "," + MachineFileList.ElementAt(x).TotalSeverity.ToString() + "," + MachineFileList.ElementAt(x).IOC.ElementAt(0).text + "," + MachineFileList.ElementAt(x).IOC.ElementAt(0).num.ToString()+"\n");
-                                for (int y = 1; y < MachineFileList.ElementAt(x).IOC.Count; ++y)
-                                {
-                                    File.AppendAllText(OutputFile, "," + "," + "," + "," + "," + "," + "," + MachineFileList.ElementAt(x).IOC.ElementAt(y).text + "," + MachineFileList.ElementAt(x).IOC.ElementAt(y).num.ToString() + "\n");
-                                }
-                                FirstRun = false;
-                                ++RecordCounter;
-                        }
-                }
+            }
+           WriteFile();
         }
 
+        static void WriteFile()
+        {
+            if (FirstRun == true)
+            {
+                RecordCounter = 0;
+            }
+            for (int x = MachineFileListCount; x < MachineFileList.Count; ++x)
+            {
+                File.AppendAllText(OutputFile, MachineFileList.ElementAt(x).Filename + "," + MachineFileList.ElementAt(x).Type + "," + MachineFileList.ElementAt(x).VTresults + "," + MachineFileList.ElementAt(x).Count + "," + MachineFileList.ElementAt(x).MD5 + "," + MachineFileList.ElementAt(x).SHA1 + "," + MachineFileList.ElementAt(x).TotalSeverity.ToString() + ",\"" + MachineFileList.ElementAt(x).IOC.ElementAt(0).text + "\"," + MachineFileList.ElementAt(x).IOC.ElementAt(0).num.ToString() + "\n");
+                for (int y = 1; y < MachineFileList.ElementAt(x).IOC.Count; ++y)
+                {
+                    File.AppendAllText(OutputFile, "," + "," + "," + "," + "," + "," + ",\"" + MachineFileList.ElementAt(x).IOC.ElementAt(y).text + "\"," + MachineFileList.ElementAt(x).IOC.ElementAt(y).num.ToString() + "\n");
+                }
+                ++RecordCounter;
+            }
+            ++MachineFileListCount;
+            FirstRun = false;
+        }
+                        
         static void WriteVirusTotalFile()
         {
             try
@@ -297,6 +298,7 @@ Help menu for Pestudio XML parser:
             -o Tell app to use non default output file and path other than PWD
             -m Machine Name for use in file output
             -c Clean up XML files once parsed
+            -vt output just VirusTotal results for all files scanned
 
             Notes:
             Only Supports csv output at this time.
