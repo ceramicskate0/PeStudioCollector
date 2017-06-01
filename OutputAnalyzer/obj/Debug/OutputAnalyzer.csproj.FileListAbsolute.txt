@@ -1,0 +1,6 @@
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\OutputAnalyzer\bin\Debug\OutputAnalyzer.exe.config
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\OutputAnalyzer\bin\Debug\OutputAnalyzer.exe
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\OutputAnalyzer\bin\Debug\OutputAnalyzer.pdb
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\OutputAnalyzer\obj\Debug\OutputAnalyzer.csprojResolveAssemblyReference.cache
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\OutputAnalyzer\obj\Debug\OutputAnalyzer.exe
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\OutputAnalyzer\obj\Debug\OutputAnalyzer.pdb

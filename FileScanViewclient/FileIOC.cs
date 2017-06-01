@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FileScanViewclient
 {
-    class FileIOC
+    public class FileIOC
     {        
         public List<IOC> IOC = new List<IOC>();
         private string VT = "";

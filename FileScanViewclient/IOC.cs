@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FileScanViewclient
 {
-    class IOC
+    public class IOC
     {
         public int num { get; set; }
         public string text { get; set; }
