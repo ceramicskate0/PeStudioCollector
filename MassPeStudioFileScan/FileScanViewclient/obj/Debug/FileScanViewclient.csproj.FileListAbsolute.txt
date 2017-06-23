@@ -1,0 +1,18 @@
+C:\Users\Host\Documents\GitHub\PeStudioCollector\FileScanViewclient\bin\Debug\FileScanViewclient.exe.config
+C:\Users\Host\Documents\GitHub\PeStudioCollector\FileScanViewclient\bin\Debug\FileScanViewclient.exe
+C:\Users\Host\Documents\GitHub\PeStudioCollector\FileScanViewclient\bin\Debug\FileScanViewclient.pdb
+C:\Users\Host\Documents\GitHub\PeStudioCollector\FileScanViewclient\obj\Debug\FileScanViewclient.csprojResolveAssemblyReference.cache
+C:\Users\Host\Documents\GitHub\PeStudioCollector\FileScanViewclient\obj\Debug\FileScanViewclient.Form1.resources
+C:\Users\Host\Documents\GitHub\PeStudioCollector\FileScanViewclient\obj\Debug\FileScanViewclient.Properties.Resources.resources
+C:\Users\Host\Documents\GitHub\PeStudioCollector\FileScanViewclient\obj\Debug\FileScanViewclient.csproj.GenerateResource.Cache
+C:\Users\Host\Documents\GitHub\PeStudioCollector\FileScanViewclient\obj\Debug\FileScanViewclient.exe
+C:\Users\Host\Documents\GitHub\PeStudioCollector\FileScanViewclient\obj\Debug\FileScanViewclient.pdb
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\FileScanViewclient\bin\Debug\FileScanViewclient.exe.config
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\FileScanViewclient\obj\Debug\FileScanViewclient.exe
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\FileScanViewclient\obj\Debug\FileScanViewclient.pdb
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\FileScanViewclient\bin\Debug\FileScanViewclient.exe
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\FileScanViewclient\bin\Debug\FileScanViewclient.pdb
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\FileScanViewclient\obj\Debug\FileScanViewclient.csprojResolveAssemblyReference.cache
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\FileScanViewclient\obj\Debug\FileScanViewclient.Form1.resources
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\FileScanViewclient\obj\Debug\FileScanViewclient.Properties.Resources.resources
+\\fs02\home$\pgarrard\My Documents\Visual Studio 2013\Projects\MassPeStudioFileScan\FileScanViewclient\obj\Debug\FileScanViewclient.csproj.GenerateResource.Cache
