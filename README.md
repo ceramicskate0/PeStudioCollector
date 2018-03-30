@@ -1,3 +1,5 @@
+No longer under development due to no community
+
 # PeStudioCollector
 PeStudioCollector to do static analysis for an file system of files of type you specify. Target for this app is to find at rest malware.
 
